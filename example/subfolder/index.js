@@ -1,26 +1,8 @@
 'use strict'
 var rcfile = require('../../')
 
-rcfile('foo')
-  .then(function (config) {
-    console.log(config)
-  })
-  .catch(function (err) {
-    console.error(err)
-  })
+console.log(rcfile('foo'))
 
-rcfile('bar')
-  .then(function (config) {
-    console.log(config)
-  })
-  .catch(function (err) {
-    console.error(err)
-  })
+console.log(rcfile('bar'))
 
-rcfile('qar')
-  .then(function (config) {
-    console.log(config)
-  })
-  .catch(function (err) {
-    console.error(err)
-  })
+console.log(rcfile('qar'))

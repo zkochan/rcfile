@@ -2,5 +2,6 @@
   "name": "qar",
   "qar": {
     "qar": 3
-  }
+  },
+  "dependencies": {}
 }

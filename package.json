@@ -45,9 +45,9 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "find-up-glob": "^1.0.0",
     "json5": "^0.5.0",
-    "read-pkg-up": "^1.0.1",
+    "object-assign": "^4.1.0",
+    "object-keys": "^1.0.9",
     "require-uncached": "^1.0.2"
   },
   "devDependencies": {
@@ -66,7 +66,7 @@
     "validate-commit-msg": "^2.6.1"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=0.10"
   },
   "config": {
     "commitizen": {

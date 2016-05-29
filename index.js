@@ -1,48 +1,65 @@
 'use strict'
-var findUpGlob = require('find-up-glob')
 var path = require('path')
 var debug = require('debug')('rcfile')
 var requireUncached = require('require-uncached')
 var JSON5 = require('json5')
 var fs = require('fs')
-var readPkgUp = require('read-pkg-up')
+var pathExists = require('path-exists')
+var objectAssign = require('object-assign')
+var keys = require('object-keys')
 var emptyConfig = {}
+
+var defaultLoaderByExt = {
+  '.js': loadJSConfigFile,
+  '.json': loadJSONConfigFile,
+  '.yaml': loadYAMLConfigFile,
+  '.yml': loadYAMLConfigFile,
+}
 
 module.exports = function (pkgName, opts) {
   opts = opts || {}
   var configFileName = opts.configFileName || '.' + pkgName + 'rc'
   var defaultExtension = opts.defaultExtension || '.yml'
   var cwd = opts.cwd || process.cwd()
-  return findUpGlob(configFileName + '?(.{js,json,yml,yaml})', {
-    cwd: cwd,
+
+  var parts = splitPath(cwd)
+
+  var loaderByExt = objectAssign({}, defaultLoaderByExt, {
+    '': defaultLoaderByExt[defaultExtension],
   })
-  .then(function (files) {
-    if (!files) {
-      return readPkgUp({cwd: cwd})
-        .then(function (result) {
-          return result.pkg[pkgName] || emptyConfig
-        })
+
+  return findConfig(parts)
+
+  function findConfig () {
+    var exts = keys(loaderByExt)
+    while (exts.length) {
+      var ext = exts.shift()
+      var configLoc = join(parts, configFileName + ext)
+      if (pathExists.sync(configLoc)) {
+        return loaderByExt[ext](configLoc)
+      }
     }
-    return loadConfigFile(files[0], defaultExtension) || emptyConfig
-  })
+    var pkgJSONLoc = join(parts, 'package.json')
+    if (pathExists.sync(pkgJSONLoc)) {
+      var pkgJSON = require(pkgJSONLoc)
+      if (pkgJSON[pkgName]) {
+        return pkgJSON[pkgName]
+      }
+    }
+
+    if (parts.pop()) {
+      return findConfig()
+    }
+    return emptyConfig
+  }
 }
 
-function loadConfigFile (filePath, defaultExtension) {
-  var fileExtension = path.extname(filePath)
-  var ext = ['.js', '.json', '.yaml', '.yml'].indexOf(fileExtension) === -1
-    ? defaultExtension
-    : fileExtension
-  switch (ext) {
-    case '.js':
-      return loadJSConfigFile(filePath)
+function splitPath (x) {
+  return path.resolve(x || '').split(path.sep)
+}
 
-    case '.json':
-      return loadJSONConfigFile(filePath)
-
-    case '.yaml':
-    case '.yml':
-      return loadYAMLConfigFile(filePath)
-  }
+function join (parts, filename) {
+  return path.resolve(parts.join(path.sep) + path.sep, filename)
 }
 
 function loadJSConfigFile (filePath) {

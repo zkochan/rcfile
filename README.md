@@ -21,28 +21,22 @@ npm install --save rcfile
 'use strict'
 var rcfile = require('rcfile')
 
-rcfile('eslint')
-  .then(function (config) {
-    console.log(config)
-    //> { extends: 'standard',
-    //    rules: 
-    //     { 'comma-dangle': [ 2, 'always-multiline' ],
-    //       'arrow-parens': [ 2, 'as-needed' ] } }
-  })
+console.log(rcfile('eslint'))
+//> { extends: 'standard',
+//    rules: 
+//     { 'comma-dangle': [ 2, 'always-multiline' ],
+//       'arrow-parens': [ 2, 'as-needed' ] } }
 
-rcfile('travis', { configFileName: '.travis' })
-  .then(function (config) {
-    console.log(config)
-    //> { language: 'node_js',
-    //    sudo: false,
-    //    node_js: [ 'v0.10', 'v4' ],
-    //    cache: { directories: [ 'node_modules' ] },
-    //    before_install: [ 'npm install -g npm@3' ],
-    //    install: [ 'npm install' ],
-    //    after_success: 
-    //     [ 'if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run coveralls; fi;',
-    //       'if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run semantic-release; fi;' ] }
-  })
+console.log(rcfile('travis', { configFileName: '.travis' }))
+//> { language: 'node_js',
+//    sudo: false,
+//    node_js: [ 'v0.10', 'v4' ],
+//    cache: { directories: [ 'node_modules' ] },
+//    before_install: [ 'npm install -g npm@3' ],
+//    install: [ 'npm install' ],
+//    after_success: 
+//     [ 'if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run coveralls; fi;',
+//       'if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run semantic-release; fi;' ] }
 ```
 <!--/@-->
 
@@ -56,9 +50,9 @@ rcfile('travis', { configFileName: '.travis' })
 ## <a name="dependencies">Dependencies</a> [![dependency status](https://img.shields.io/david/zkochan/rcfile/master.svg?style=flat-square)](https://david-dm.org/zkochan/rcfile/master)
 
 - [debug](https://github.com/visionmedia/debug): small debugging utility
-- [find-up-glob](https://github.com/tanhauhau/find-up-glob): Find a file by walking up parent directories
 - [json5](https://github.com/aseemk/json5): JSON for the ES5 era.
-- [read-pkg-up](https://github.com/sindresorhus/read-pkg-up): Read the closest package.json file
+- [object-assign](https://github.com/sindresorhus/object-assign): ES2015 Object.assign() ponyfill
+- [object-keys](https://github.com/ljharb/object-keys): An Object.keys replacement, in case Object.keys is not available. From <https://github.com/es-shims/es5-shim>
 - [require-uncached](https://github.com/sindresorhus/require-uncached): Require a module bypassing the cache
 
 <!--/@-->

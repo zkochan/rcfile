@@ -1,0 +1,18 @@
+language: node_js
+sudo: false
+node_js:
+  - v0.10
+  - v4
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - npm install -g npm@3
+install:
+  - npm install
+
+after_success:
+  - if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run coveralls; fi;
+  - if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run semantic-release; fi;

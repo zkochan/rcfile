@@ -50,6 +50,7 @@ console.log(rcfile('travis', { configFileName: '.travis' }))
 ## <a name="dependencies">Dependencies</a> [![dependency status](https://img.shields.io/david/zkochan/rcfile/master.svg?style=flat-square)](https://david-dm.org/zkochan/rcfile/master)
 
 - [debug](https://github.com/visionmedia/debug): small debugging utility
+- [js-yaml](https://github.com/nodeca/js-yaml): YAML 1.2 parser and serializer
 - [json5](https://github.com/aseemk/json5): JSON for the ES5 era.
 - [object-assign](https://github.com/sindresorhus/object-assign): ES2015 Object.assign() ponyfill
 - [object-keys](https://github.com/ljharb/object-keys): An Object.keys replacement, in case Object.keys is not available. From <https://github.com/es-shims/es5-shim>

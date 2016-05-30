@@ -49,6 +49,7 @@
     "json5": "^0.5.0",
     "object-assign": "^4.1.0",
     "object-keys": "^1.0.9",
+    "path-exists": "^2.1.0",
     "require-uncached": "^1.0.2"
   },
   "devDependencies": {
@@ -62,7 +63,7 @@
     "istanbul": "^0.4.2",
     "mocha": "^2.3.4",
     "mos": "^1.2.0",
-    "mos-plugin-readme": "^1.0.1",
+    "mos-plugin-readme": "^1.0.2",
     "semantic-release": "^4.3.5",
     "validate-commit-msg": "^2.6.1"
   },

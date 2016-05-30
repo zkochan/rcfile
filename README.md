@@ -16,14 +16,13 @@ npm install --save rcfile
 
 ## Usage
 
-<!--@example('usage-example.js')-->
 ```js
 'use strict'
 var rcfile = require('rcfile')
 
 console.log(rcfile('eslint'))
 //> { extends: 'standard',
-//    rules: 
+//    rules:
 //     { 'comma-dangle': [ 2, 'always-multiline' ],
 //       'arrow-parens': [ 2, 'as-needed' ] } }
 
@@ -34,11 +33,10 @@ console.log(rcfile('travis', { configFileName: '.travis' }))
 //    cache: { directories: [ 'node_modules' ] },
 //    before_install: [ 'npm install -g npm@3' ],
 //    install: [ 'npm install' ],
-//    after_success: 
+//    after_success:
 //     [ 'if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run coveralls; fi;',
 //       'if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run semantic-release; fi;' ] }
 ```
-<!--/@-->
 
 ## License
 
@@ -54,6 +52,7 @@ console.log(rcfile('travis', { configFileName: '.travis' }))
 - [json5](https://github.com/aseemk/json5): JSON for the ES5 era.
 - [object-assign](https://github.com/sindresorhus/object-assign): ES2015 Object.assign() ponyfill
 - [object-keys](https://github.com/ljharb/object-keys): An Object.keys replacement, in case Object.keys is not available. From <https://github.com/es-shims/es5-shim>
+- [path-exists](https://github.com/sindresorhus/path-exists): Check if a path exists
 - [require-uncached](https://github.com/sindresorhus/require-uncached): Require a module bypassing the cache
 
 <!--/@-->

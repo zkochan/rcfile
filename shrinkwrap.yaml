@@ -1,0 +1,2176 @@
+dependencies:
+  chai@^3.4.1: 3.5.0
+  cz-conventional-changelog@1.2.0: 1.2.0
+  debug@^2.2.0: 2.6.3
+  eslint-config-standard@^6.2.1: 6.2.1
+  eslint-plugin-promise@^3.4.0: 3.5.0
+  eslint-plugin-standard@^2.0.1: 2.3.1
+  eslint@^3.10.2: 3.19.0
+  ghooks@^1.2.1: 1.3.2
+  istanbul@^0.4.2: 0.4.5
+  js-yaml@^3.6.1: 3.8.3
+  json5@^0.5.0: 0.5.1
+  mocha@^3.2.0: 3.2.0
+  mos-plugin-readme@^1.0.2: 1.0.4
+  mos@^2.0.0-alpha.3: 2.0.0-alpha.3
+  object-assign@^4.1.0: 4.1.1
+  object-keys@^1.0.9: 1.0.11
+  path-exists@^3.0.0: 3.0.0
+  require-uncached@^1.0.2: 1.0.3
+  semantic-release@^6.3.2: 6.3.2
+  validate-commit-msg@^2.6.1: 2.12.1
+packages:
+  /@bahmutov/parse-github-repo-url/0.1.2: 6311dfbe7fe00ac464b9069d0e2684a739aeb69b
+  /@semantic-release/commit-analyzer/2.0.0:
+    dependencies:
+      conventional-changelog: 0.0.17
+    resolution: 924d1e2c30167c6a472bed9f66ee8f8e077489b2
+  /@semantic-release/condition-travis/5.0.2:
+    dependencies:
+      '@semantic-release/error': 1.0.0
+      semver: 5.3.0
+      travis-deploy-once: 1.0.0-node-0.10-support
+    resolution: f4bb777a6c6db5565d70754a9b629233bd4a6597
+  /@semantic-release/error/1.0.0: bb8f8eeedd5c7f8c46f96b37ef39e1b8c376c1cc
+  /@semantic-release/last-release-npm/1.2.1:
+    dependencies:
+      '@semantic-release/error': 1.0.0
+      npm-registry-client: 7.5.0
+      npmlog: 1.2.1
+    resolution: ff748142ecf15354b833a86ba18205f7fce594ee
+  /@semantic-release/release-notes-generator/2.0.0:
+    dependencies:
+      conventional-changelog: 0.0.17
+      github-url-from-git: 1.5.0
+    resolution: 7c5da65689466d536a53fdfa9f4d62a3bd13c16e
+  /@zkochan/async-replace/0.4.1:
+    dependencies:
+      babel-run-async: 1.0.0
+      babel-runtime: 6.23.0
+    resolution: 4cf3bdeecf52f2f6ac8f32b0d88a682eb4848979
+  /abbrev/1.0.9: 91b4792588a7738c25f35dd6f63752a2f8776135
+  /abbrev/1.1.0: d0554c2256636e2f56e7c2e5ad183f859428d81f
+  /acorn-jsx/3.0.1:
+    dependencies:
+      acorn: 3.3.0
+    resolution: afdf9488fb1ecefc8348f6fb22f464e32a58b36b
+  /acorn/3.0.4: 04f244950fdb8faf85507ad481c2edee7aecdeec
+  /acorn/3.3.0: 45e37fb39e8da3f25baee3ff5369e2bb5f22017a
+  /acorn/5.0.3: c460df08491463f028ccb82eab3730bf01087b3d
+  /ajv-keywords/1.5.1: 314dd0a4b3368fad3dfcdc54ede6171b886daf3c
+  /ajv/4.11.6:
+    dependencies:
+      co: 4.6.0
+      json-stable-stringify: 1.0.1
+    resolution: 947e93049790942b2a2d60a8289b28924d39f987
+  /align-text/0.1.4:
+    dependencies:
+      kind-of: 3.1.0
+      longest: 1.0.1
+      repeat-string: 1.6.1
+    resolution: 0cd90a561093f35d0a99256c22b7069433fad117
+  /amdefine/1.0.1: 4a5282ac164729e93619bcfd3ad151f817ce91f5
+  /ansi-align/1.1.0:
+    dependencies:
+      string-width: 1.0.2
+    resolution: 2f0c1658829739add5ebb15e6b0c6e3423f016ba
+  /ansi-escapes/1.4.0: d3a8a83b319aa67793662b13e761c7911422306e
+  /ansi-regex/0.2.1: 0d8e946967a3d8143f93e24e298525fc1b2235f9
+  /ansi-regex/2.1.1: c3b33ab5ee360d86e0e628f0468ae7ef27d654df
+  /ansi-styles/1.1.0: eaecbf66cd706882760b2f4691582b8f55d7a7de
+  /ansi-styles/2.2.1: b432dd3358b634cf75e1e4664368240533c1ddbe
+  /ansi/0.3.1: 0c42d4fb17160d5a9af1e484bace1c66922c1b21
+  /aproba/1.1.1: 95d3600f07710aa0e9298c726ad5ecf2eacbabab
+  /are-we-there-yet/1.0.6:
+    dependencies:
+      delegates: 1.0.0
+      readable-stream: 2.2.9
+    resolution: a2d28c93102aa6cc96245a26cb954de06ec53f0c
+  /are-we-there-yet/1.1.2:
+    dependencies:
+      delegates: 1.0.0
+      readable-stream: 2.2.9
+    resolution: 80e470e95a084794fe1899262c5667c6e88de1b3
+  /argparse/1.0.9:
+    dependencies:
+      sprintf-js: 1.0.3
+    resolution: 73d83bc263f86e97f8cc4f6bae1b0e90a7d22c86
+  /arr-exclude/1.0.0: dfc7c2e552a270723ccda04cf3128c8cbfe5c631
+  /array-find-index/1.0.2: df010aa1287e164bbda6f9723b0a96a1ec4187a1
+  /array-union/1.0.2:
+    dependencies:
+      array-uniq: 1.0.3
+    resolution: 9a34410e4f4e3da23dea375be5be70f24778ec39
+  /array-uniq/1.0.3: af6ac877a25cc7f74e058894753858dfdb24fdb6
+  /arrify/1.0.1: 898508da2226f380df904728456849c1501a4b0d
+  /asap/2.0.5: 522765b50c3510490e52d7dcfe085ef9ba96958f
+  /asn1/0.2.3: dac8787713c9966849fc8180777ebe9c1ddf3b86
+  /assert-plus/0.2.0: d74e1b87e7affc0db8aadb7021f3fe48101ab234
+  /assert-plus/1.0.0: f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525
+  /assertion-error/1.0.2: 13ca515d86206da0bac66e834dd397d87581094c
+  /async/1.5.2: ec6a61ae56480c0c3cb241c95618e20892f9672a
+  /async/2.3.0:
+    dependencies:
+      lodash: 4.17.4
+    resolution: 1013d1051047dd320fe24e494d5c66ecaf6147d9
+  /asynckit/0.4.0: c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79
+  /aws-sign2/0.6.0: 14342dd38dbcc94d0e5b87d763cd63612c0e794f
+  /aws4/1.6.0: 83ef5ca860b2b32e4a0deedee8c771b9db57471e
+  /babel-code-frame/6.22.0:
+    dependencies:
+      chalk: 1.1.3
+      esutils: 2.0.2
+      js-tokens: 3.0.1
+    resolution: 027620bee567a88c32561574e7fd0801d33118e4
+  /babel-core/6.24.1:
+    dependencies:
+      babel-code-frame: 6.22.0
+      babel-generator: 6.24.1
+      babel-helpers: 6.24.1
+      babel-messages: 6.23.0
+      babel-register: 6.24.1
+      babel-runtime: 6.23.0
+      babel-template: 6.24.1
+      babel-traverse: 6.24.1
+      babel-types: 6.24.1
+      babylon: 6.16.1
+      convert-source-map: 1.5.0
+      debug: 2.6.3
+      json5: 0.5.1
+      lodash: 4.17.4
+      minimatch: 3.0.3
+      path-is-absolute: 1.0.1
+      private: 0.1.7
+      slash: 1.0.0
+      source-map: 0.5.6
+    resolution: 8c428564dce1e1f41fb337ec34f4c3b022b5ad83
+  /babel-generator/6.24.1:
+    dependencies:
+      babel-messages: 6.23.0
+      babel-runtime: 6.23.0
+      babel-types: 6.24.1
+      detect-indent: 4.0.0
+      jsesc: 1.3.0
+      lodash: 4.17.4
+      source-map: 0.5.6
+      trim-right: 1.0.1
+    resolution: e715f486c58ded25649d888944d52aa07c5d9497
+  /babel-helper-define-map/6.24.1:
+    dependencies:
+      babel-helper-function-name: 6.24.1
+      babel-runtime: 6.23.0
+      babel-types: 6.24.1
+      lodash: 4.17.4
+    resolution: 7a9747f258d8947d32d515f6aa1c7bd02204a080
+  /babel-helper-function-name/6.24.1:
+    dependencies:
+      babel-helper-get-function-arity: 6.24.1
+      babel-runtime: 6.23.0
+      babel-template: 6.24.1
+      babel-traverse: 6.24.1
+      babel-types: 6.24.1
+    resolution: d3475b8c03ed98242a25b48351ab18399d3580a9
+  /babel-helper-get-function-arity/6.24.1:
+    dependencies:
+      babel-runtime: 6.23.0
+      babel-types: 6.24.1
+    resolution: 8f7782aa93407c41d3aa50908f89b031b1b6853d
+  /babel-helper-optimise-call-expression/6.24.1:
+    dependencies:
+      babel-runtime: 6.23.0
+      babel-types: 6.24.1
+    resolution: f7a13427ba9f73f8f4fa993c54a97882d1244257
+  /babel-helper-replace-supers/6.24.1:
+    dependencies:
+      babel-helper-optimise-call-expression: 6.24.1
+      babel-messages: 6.23.0
+      babel-runtime: 6.23.0
+      babel-template: 6.24.1
+      babel-traverse: 6.24.1
+      babel-types: 6.24.1
+    resolution: bf6dbfe43938d17369a213ca8a8bf74b6a90ab1a
+  /babel-helpers/6.24.1:
+    dependencies:
+      babel-runtime: 6.23.0
+      babel-template: 6.24.1
+    resolution: 3471de9caec388e5c850e597e58a26ddf37602b2
+  /babel-messages/6.23.0:
+    dependencies:
+      babel-runtime: 6.23.0
+    resolution: f3cdf4703858035b2a2951c6ec5edf6c62f2630e
+  /babel-plugin-transform-es2015-classes/6.24.1:
+    dependencies:
+      babel-helper-define-map: 6.24.1
+      babel-helper-function-name: 6.24.1
+      babel-helper-optimise-call-expression: 6.24.1
+      babel-helper-replace-supers: 6.24.1
+      babel-messages: 6.23.0
+      babel-runtime: 6.23.0
+      babel-template: 6.24.1
+      babel-traverse: 6.24.1
+      babel-types: 6.24.1
+    resolution: 5a4c58a50c9c9461e564b4b2a3bfabc97a2584db
+  /babel-polyfill/6.23.0:
+    dependencies:
+      babel-runtime: 6.23.0
+      core-js: 2.4.1
+      regenerator-runtime: 0.10.3
+    resolution: 8364ca62df8eafb830499f699177466c3b03499d
+  /babel-register/6.24.1:
+    dependencies:
+      babel-core: 6.24.1
+      babel-runtime: 6.23.0
+      core-js: 2.4.1
+      home-or-tmp: 2.0.0
+      lodash: 4.17.4
+      mkdirp: 0.5.1
+      source-map-support: 0.4.14
+    resolution: 7e10e13a2f71065bdfad5a1787ba45bca6ded75f
+  /babel-run-async/1.0.0:
+    dependencies:
+      babel-runtime: 6.23.0
+      is-promise: 2.1.0
+    resolution: a343425fcd36158dfefae725d0393ece44ec459c
+  /babel-runtime/6.23.0:
+    dependencies:
+      core-js: 2.4.1
+      regenerator-runtime: 0.10.3
+    resolution: 0a9489f144de70efb3ce4300accdb329e2fc543b
+  /babel-template/6.24.1:
+    dependencies:
+      babel-runtime: 6.23.0
+      babel-traverse: 6.24.1
+      babel-types: 6.24.1
+      babylon: 6.16.1
+      lodash: 4.17.4
+    resolution: 04ae514f1f93b3a2537f2a0f60a5a45fb8308333
+  /babel-traverse/6.24.1:
+    dependencies:
+      babel-code-frame: 6.22.0
+      babel-messages: 6.23.0
+      babel-runtime: 6.23.0
+      babel-types: 6.24.1
+      babylon: 6.16.1
+      debug: 2.6.3
+      globals: 9.17.0
+      invariant: 2.2.2
+      lodash: 4.17.4
+    resolution: ab36673fd356f9a0948659e7b338d5feadb31695
+  /babel-types/6.24.1:
+    dependencies:
+      babel-runtime: 6.23.0
+      esutils: 2.0.2
+      lodash: 4.17.4
+      to-fast-properties: 1.0.2
+    resolution: a136879dc15b3606bda0d90c1fc74304c2ff0975
+  /babylon/6.16.1: 30c5a22f481978a9e7f8cdfdf496b11d94b404d3
+  /balanced-match/0.4.2: cb3f3e3c732dc0f01ee70b403f302e61d7709838
+  /bcrypt-pbkdf/1.0.1:
+    dependencies:
+      tweetnacl: 0.14.5
+    resolution: 63bc5dcb61331b92bc05fd528953c33462a06f8d
+  /bl/1.1.2:
+    dependencies:
+      readable-stream: 2.0.6
+    resolution: fdca871a99713aa00d19e3bbba41c44787a65398
+  /bluebird/3.5.0: 791420d7f551eea2897453a8a77653f96606d67c
+  /boom/2.10.1:
+    dependencies:
+      hoek: 2.16.3
+    resolution: 39c8918ceff5799f83f9492a848f625add0c766f
+  /boxen/0.5.1:
+    dependencies:
+      camelcase: 2.1.1
+      chalk: 1.1.3
+      cli-boxes: 1.0.0
+      filled-array: 1.1.0
+      object-assign: 4.1.1
+      repeating: 2.0.1
+      string-width: 1.0.2
+      widest-line: 1.0.0
+    resolution: 5b73d8840eb7f3c8a155cbf69ed3ed68d4720014
+  /brace-expansion/1.1.7:
+    dependencies:
+      balanced-match: 0.4.2
+      concat-map: 0.0.1
+    resolution: 3effc3c50e000531fb720eaff80f0ae8ef23cf59
+  /browser-stdout/1.3.0: f351d32969d32fa5d7a5567154263d928ae3bd1f
+  /buffer-shims/1.0.0: 9978ce317388c649ad8793028c3477ef044a8b51
+  /builtin-modules/1.1.1: 270f076c5a72c02f5b65a47df94c5fe3a278892f
+  /caller-path/0.1.0:
+    dependencies:
+      callsites: 0.2.0
+    resolution: 94085ef63581ecd3daa92444a8fe94e82577751f
+  /callsites/0.2.0: afab96262910a7f33c19a5775825c69f34e350ca
+  /callsites/1.0.0: 02563b10ed31f2ebd95893a776f0b3d95a6b15b8
+  /camelcase-keys/2.1.0:
+    dependencies:
+      camelcase: 2.1.1
+      map-obj: 1.0.1
+    resolution: 308beeaffdf28119051efa1d932213c91b8f92e7
+  /camelcase/1.2.1: 9bb5304d2e0b56698b2c758b08a3eaa9daa58a39
+  /camelcase/2.1.1: 7c1d16d679a1bbe59ca02cacecfb011e201f5a1f
+  /capture-stack-trace/1.0.0: 4a6fa07399c26bba47f0b2496b4d0fb408c5550d
+  /caseless/0.11.0: 715b96ea9841593cc33067923f5ec60ebda4f7d7
+  /caseless/0.12.0: 1b681c21ff84033c826543090689420d187151dc
+  /ccount/1.0.1: 665687945168c218ec77ff61a4155ae00227a96c
+  /center-align/0.1.3:
+    dependencies:
+      align-text: 0.1.4
+      lazy-cache: 1.0.4
+    resolution: aa0d32629b6ee972200411cbd4461c907bc2b7ad
+  /chai/3.5.0:
+    dependencies:
+      assertion-error: 1.0.2
+      deep-eql: 0.1.3
+      type-detect: 1.0.0
+    resolution: 4d02637b067fe958bdbfdd3a40ec56fef7373247
+  /chalk/0.5.1:
+    dependencies:
+      ansi-styles: 1.1.0
+      escape-string-regexp: 1.0.5
+      has-ansi: 0.1.0
+      strip-ansi: 0.3.0
+      supports-color: 0.2.0
+    resolution: 663b3a648b68b55d04690d49167aa837858f2174
+  /chalk/1.1.3:
+    dependencies:
+      ansi-styles: 2.2.1
+      escape-string-regexp: 1.0.5
+      has-ansi: 2.0.0
+      strip-ansi: 3.0.1
+      supports-color: 2.0.0
+    resolution: a8115c55e4a702fe4d150abd3872822a7e09fc98
+  /character-entities-html4/1.1.0: 1ab08551d3ce1fa1df08d00fb9ca1defb147a06c
+  /character-entities-legacy/1.1.0: b18aad98f6b7bcc646c1e4c81f9f1956376a561a
+  /character-entities/1.2.0: a683e2cf75dbe8b171963531364e58e18a1b155f
+  /character-reference-invalid/1.1.0: dec9ad1dfb9f8d06b4fcdaa2adc3c4fd97af1e68
+  /circular-json/0.3.1: be8b36aefccde8b3ca7aa2d6afc07a37242c0d2d
+  /cli-boxes/1.0.0: 4fa917c3e59c94a004cd61f8ee509da651687143
+  /cli-cursor/1.0.2:
+    dependencies:
+      restore-cursor: 1.0.1
+    resolution: 64da3f7d56a54412e59794bd62dc35295e8f2987
+  /cli-width/2.1.0: b234ca209b29ef66fc518d9b98d5847b00edf00a
+  /cliui/2.1.0:
+    dependencies:
+      center-align: 0.1.3
+      right-align: 0.1.3
+      wordwrap: 0.0.2
+    resolution: 4b475760ff80264c762c3a1719032e91c7fea0d1
+  /co/4.6.0: 6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184
+  /code-point-at/1.1.0: 0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77
+  /codemo/0.2.1:
+    dependencies:
+      acorn: 3.0.4
+      babel-runtime: 6.23.0
+      callsites: 1.0.0
+      cross-spawn-async: 2.2.2
+      file-position: 0.0.0
+      lodash.partition: 4.6.0
+      normalize-newline: 2.0.0
+      normalize-path: 2.0.1
+      promise.prototype.finally: 1.0.1
+      rollup: 0.25.8
+      rollup-plugin-babel: 2.4.0
+      rollup-plugin-includepaths: 0.1.2
+      source-map: 0.5.3
+    resolution: 1ec039c4f951ae970e0ae2b6646165d6d48dcf84
+  /collapse-white-space/1.0.2: 9c463fb9c6d190d2dcae21a356a01bcae9eeef6d
+  /colors/0.6.2: 2423fe6678ac0c5dae8852e5d0e5be08c997abcc
+  /combined-stream/1.0.5:
+    dependencies:
+      delayed-stream: 1.0.0
+    resolution: 938370a57b4a51dea2c77c15d5c5fdf895164009
+  /commander/2.1.0: d121bbae860d9992a3d517ba96f56588e47c6781
+  /commander/2.9.0:
+    dependencies:
+      graceful-readlink: 1.0.1
+    resolution: 9c99094176e12240cb22d6c5146098400fe0f7d4
+  /concat-map/0.0.1: d8a96bd77fd68df7793a73036a3ba0d5405d477b
+  /concat-stream/1.6.0:
+    dependencies:
+      inherits: 2.0.3
+      readable-stream: 2.2.9
+      typedarray: 0.0.6
+    resolution: 0aac662fd52be78964d5532f694784e70110acf7
+  /config-chain/1.1.11:
+    dependencies:
+      ini: 1.3.4
+      proto-list: 1.2.4
+    resolution: aba09747dfbe4c3e70e766a6e41586e1859fc6f2
+  /configstore/2.1.0:
+    dependencies:
+      dot-prop: 3.0.0
+      graceful-fs: 4.1.11
+      mkdirp: 0.5.1
+      object-assign: 4.1.1
+      os-tmpdir: 1.0.2
+      osenv: 0.1.4
+      uuid: 2.0.3
+      write-file-atomic: 1.3.1
+      xdg-basedir: 2.0.0
+    resolution: 737a3a7036e9886102aa6099e47bb33ab1aba1a1
+  /console-control-strings/1.1.0: 3d7cf4464db6446ea644bf4b39507f9851008e8e
+  /conventional-changelog/0.0.17:
+    dependencies:
+      dateformat: 1.0.12
+      event-stream: 3.3.4
+      github-url-from-git: 1.5.0
+      lodash: 3.10.1
+      normalize-package-data: 1.0.3
+    resolution: 5e0216600f4686190f0c82efbb0b3dd11b49ce34
+  /conventional-commit-types/2.1.0: 45d860386c9a2e6537ee91d8a1b61bd0411b3d04
+  /convert-source-map/1.5.0: 9acd70851c6d5dfdd93d9282e5edf94a03ff46b5
+  /core-js/2.4.1: 4de911e667b0eae9124e34254b53aea6fc618d3e
+  /core-util-is/1.0.2: b5fd54220aa2bc5ab57aab7140c940754503c1a7
+  /create-error-class/3.0.2:
+    dependencies:
+      capture-stack-trace: 1.0.0
+    resolution: 06be7abef947a3f14a30fd610671d401bca8b7b6
+  /cross-spawn-async/2.2.2:
+    dependencies:
+      lru-cache: 4.0.2
+      which: 1.2.14
+    resolution: 90dea9b6920f03b2f7bc7499615001aee6f2317e
+  /cross-spawn-async/2.2.5:
+    dependencies:
+      lru-cache: 4.0.2
+      which: 1.2.14
+    resolution: 845ff0c0834a3ded9d160daca6d390906bb288cc
+  /cross-spawn/4.0.2:
+    dependencies:
+      lru-cache: 4.0.2
+      which: 1.2.14
+    resolution: 7b9247621c23adfdd3856004a823cbe397424d41
+  /cryptiles/2.0.5:
+    dependencies:
+      boom: 2.10.1
+    resolution: 3bdfecdc608147c1c67202fa291e7dca59eaa3b8
+  /currently-unhandled/0.4.1:
+    dependencies:
+      array-find-index: 1.0.2
+    resolution: 988df33feab191ef799a61369dd76c17adf957ea
+  /cz-conventional-changelog/1.2.0:
+    dependencies:
+      conventional-commit-types: 2.1.0
+      lodash.map: 4.6.0
+      longest: 1.0.1
+      pad-right: 0.2.2
+      right-pad: 1.0.1
+      word-wrap: 1.2.1
+    resolution: 2bca04964c8919b23f3fd6a89ef5e6008b31b3f8
+  /d/1.0.0:
+    dependencies:
+      es5-ext: 0.10.15
+    resolution: 754bb5bfe55451da69a58b94d45f4c5b0462d58f
+  /dashdash/1.14.1:
+    dependencies:
+      assert-plus: 1.0.0
+    resolution: 853cfa0f7cbe2fed5de20326b8dd581035f6e2f0
+  /dateformat/1.0.12:
+    dependencies:
+      get-stdin: 4.0.1
+      meow: 3.7.0
+    resolution: 9f124b67594c937ff706932e4a642cca8dbbfee9
+  /debug/2.2.0:
+    dependencies:
+      ms: 0.7.1
+    resolution: f87057e995b1a1f6ae6a4960664137bc56f039da
+  /debug/2.6.3:
+    dependencies:
+      ms: 0.7.2
+    resolution: 0f7eb8c30965ec08c72accfa0130c8b79984141d
+  /decamelize/1.2.0: f6534d15148269b20352e7bee26f501f9a191290
+  /deep-eql/0.1.3:
+    dependencies:
+      type-detect: 0.1.1
+    resolution: ef558acab8de25206cd713906d74e56930eb69f2
+  /deep-equal/1.0.1: f5d260292b660e084eff4cdbc9f08ad3247448b5
+  /deep-extend/0.4.1: efe4113d08085f4e6f9687759810f807469e2253
+  /deep-is/0.1.3: b369d6fb5dbc13eecf524f91b070feedc357cf34
+  /define-properties/1.1.2:
+    dependencies:
+      foreach: 2.0.5
+      object-keys: 1.0.11
+    resolution: 83a73f2fea569898fb737193c8f873caf6d45c94
+  /defined/1.0.0: c98d9bcef75674188e110969151199e39b1fa693
+  /del/2.2.2:
+    dependencies:
+      globby: 5.0.0
+      is-path-cwd: 1.0.0
+      is-path-in-cwd: 1.0.0
+      object-assign: 4.1.1
+      pify: 2.3.0
+      pinkie-promise: 2.0.1
+      rimraf: 2.6.1
+    resolution: c12c981d067846c84bcaf862cff930d907ffd1a8
+  /delayed-stream/1.0.0: df3ae199acadfb7d440aaae0b29e2272b24ec619
+  /delegates/1.0.0: 84c6e159b81904fdca59a0ef44cd870d31250f9a
+  /detect-indent/4.0.0:
+    dependencies:
+      repeating: 2.0.1
+    resolution: f76d064352cdf43a1cb6ce619c4ee3a9475de208
+  /dezalgo/1.0.3:
+    dependencies:
+      asap: 2.0.5
+      wrappy: 1.0.2
+    resolution: 7f742de066fc748bc8db820569dddce49bf0d456
+  /diff/1.4.0: 7f28d2eb9ee7b15a97efd89ce63dcfdaa3ccbabf
+  /diff/2.2.3: 60eafd0d28ee906e4e8ff0a52c1229521033bf99
+  /doctrine/2.0.0:
+    dependencies:
+      esutils: 2.0.2
+      isarray: 1.0.0
+    resolution: c73d8d2909d22291e1a007a395804da8b665fe63
+  /dot-prop/3.0.0:
+    dependencies:
+      is-obj: 1.0.1
+    resolution: 1b708af094a49c9a0e7dbcad790aba539dac1177
+  /duplexer/0.1.1: ace6ff808c1ce66b57d1ebf97977acb02334cfc1
+  /duplexer2/0.1.4:
+    dependencies:
+      readable-stream: 2.2.9
+    resolution: 8b12dab878c0d69e3e7891051662a32fc6bddcc1
+  /ecc-jsbn/0.1.1:
+    dependencies:
+      jsbn: 0.1.1
+    resolution: 0fc73a9ed5f0d53c38193398523ef7e543777505
+  /emoji-regex/6.4.2: a30b6fee353d406d96cfb9fa765bdc82897eff6e
+  /error-ex/1.3.1:
+    dependencies:
+      is-arrayish: 0.2.1
+    resolution: f855a86ce61adc4e8621c3cda21e7a7612c3a8dc
+  /es-abstract/1.7.0:
+    dependencies:
+      es-to-primitive: 1.1.1
+      function-bind: 1.1.0
+      is-callable: 1.1.3
+      is-regex: 1.0.4
+    resolution: dfade774e01bfcd97f96180298c449c8623fb94c
+  /es-to-primitive/1.1.1:
+    dependencies:
+      is-callable: 1.1.3
+      is-date-object: 1.0.1
+      is-symbol: 1.0.1
+    resolution: 45355248a88979034b6792e19bb81f2b7975dd0d
+  /es5-ext/0.10.15:
+    dependencies:
+      es6-iterator: 2.0.1
+      es6-symbol: 3.1.1
+    resolution: c330a5934c1ee21284a7c081a86e5fd937c91ea6
+  /es6-iterator/2.0.1:
+    dependencies:
+      d: 1.0.0
+      es5-ext: 0.10.15
+      es6-symbol: 3.1.1
+    resolution: 8e319c9f0453bf575d374940a655920e59ca5512
+  /es6-map/0.1.5:
+    dependencies:
+      d: 1.0.0
+      es5-ext: 0.10.15
+      es6-iterator: 2.0.1
+      es6-set: 0.1.5
+      es6-symbol: 3.1.1
+      event-emitter: 0.3.5
+    resolution: 9136e0503dcc06a301690f0bb14ff4e364e949f0
+  /es6-set/0.1.5:
+    dependencies:
+      d: 1.0.0
+      es5-ext: 0.10.15
+      es6-iterator: 2.0.1
+      es6-symbol: 3.1.1
+      event-emitter: 0.3.5
+    resolution: d2b3ec5d4d800ced818db538d28974db0a73ccb1
+  /es6-symbol/3.1.1:
+    dependencies:
+      d: 1.0.0
+      es5-ext: 0.10.15
+    resolution: bf00ef4fdab6ba1b46ecb7b629b4c7ed5715cc77
+  /es6-weak-map/2.0.2:
+    dependencies:
+      d: 1.0.0
+      es5-ext: 0.10.15
+      es6-iterator: 2.0.1
+      es6-symbol: 3.1.1
+    resolution: 5e3ab32251ffd1538a1f8e5ffa1357772f92d96f
+  /escape-string-regexp/1.0.5: 1b61c0562190a8dff6ae3bb2cf0200ca130b86d4
+  /escodegen/1.8.1:
+    dependencies:
+      esprima: 2.7.3
+      estraverse: 1.9.3
+      esutils: 2.0.2
+      optionator: 0.8.2
+      source-map: 0.2.0
+    resolution: 5a5b53af4693110bebb0867aa3430dd3b70a1018
+  /escope/3.6.0:
+    dependencies:
+      es6-map: 0.1.5
+      es6-weak-map: 2.0.2
+      esrecurse: 4.1.0
+      estraverse: 4.2.0
+    resolution: e01975e812781a163a6dadfdd80398dc64c889c3
+  /eslint-config-standard/6.2.1: d3a68aafc7191639e7ee441e7348739026354292
+  /eslint-plugin-promise/3.5.0: 78fbb6ffe047201627569e85a6c5373af2a68fca
+  /eslint-plugin-standard/2.3.1: 6765bd2a6d9ecdc7bdf1b145ae4bb30e2b7b86f8
+  /eslint/3.19.0:
+    dependencies:
+      babel-code-frame: 6.22.0
+      chalk: 1.1.3
+      concat-stream: 1.6.0
+      debug: 2.6.3
+      doctrine: 2.0.0
+      escope: 3.6.0
+      espree: 3.4.1
+      esquery: 1.0.0
+      estraverse: 4.2.0
+      esutils: 2.0.2
+      file-entry-cache: 2.0.0
+      glob: 7.1.1
+      globals: 9.17.0
+      ignore: 3.2.7
+      imurmurhash: 0.1.4
+      inquirer: 0.12.0
+      is-my-json-valid: 2.16.0
+      is-resolvable: 1.0.0
+      js-yaml: 3.8.3
+      json-stable-stringify: 1.0.1
+      levn: 0.3.0
+      lodash: 4.17.4
+      mkdirp: 0.5.1
+      natural-compare: 1.4.0
+      optionator: 0.8.2
+      path-is-inside: 1.0.2
+      pluralize: 1.2.1
+      progress: 1.1.8
+      require-uncached: 1.0.3
+      shelljs: 0.7.7
+      strip-bom: 3.0.0
+      strip-json-comments: 2.0.1
+      table: 3.8.3
+      text-table: 0.2.0
+      user-home: 2.0.0
+    resolution: c8fc6201c7f40dd08941b87c085767386a679acc
+  /espree/3.4.1:
+    dependencies:
+      acorn: 5.0.3
+      acorn-jsx: 3.0.1
+    resolution: 28a83ab4aaed71ed8fe0f5efe61b76a05c13c4d2
+  /esprima/2.7.3: 96e3b70d5779f6ad49cd032673d1c312767ba581
+  /esprima/3.1.3: fdca51cee6133895e3c88d535ce49dbff62a4633
+  /esquery/1.0.0:
+    dependencies:
+      estraverse: 4.2.0
+    resolution: cfba8b57d7fba93f17298a8a006a04cda13d80fa
+  /esrecurse/4.1.0:
+    dependencies:
+      estraverse: 4.1.1
+      object-assign: 4.1.1
+    resolution: 4713b6536adf7f2ac4f327d559e7756bff648220
+  /estraverse/1.9.3: af67f2dc922582415950926091a4005d29c9bb44
+  /estraverse/4.1.1: f6caca728933a850ef90661d0e17982ba47111a2
+  /estraverse/4.2.0: 0dee3fed31fcd469618ce7342099fc1afa0bdb13
+  /estree-walker/0.2.1: bdafe8095383d8414d5dc2ecf4c9173b6db9412e
+  /esutils/2.0.2: 0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b
+  /event-emitter/0.3.5:
+    dependencies:
+      d: 1.0.0
+      es5-ext: 0.10.15
+    resolution: df8c69eef1647923c7157b9ce83840610b02cc39
+  /event-stream/3.3.4:
+    dependencies:
+      duplexer: 0.1.1
+      from: 0.1.7
+      map-stream: 0.1.0
+      pause-stream: 0.0.11
+      split: 0.3.3
+      stream-combiner: 0.0.4
+      through: 2.3.8
+    resolution: 4ab4c9a0f5a54db9338b4c34d86bfce8f4b35571
+  /events-to-array/1.1.2: 2d41f563e1fe400ed4962fe1a4d5c6a7539df7f6
+  /execa/0.4.0:
+    dependencies:
+      cross-spawn-async: 2.2.5
+      is-stream: 1.1.0
+      npm-run-path: 1.0.0
+      object-assign: 4.1.1
+      path-key: 1.0.0
+      strip-eof: 1.0.0
+    resolution: 4eb6467a36a095fabb2970ff9d5e3fb7bce6ebc3
+  /exit-hook/1.1.1: f05ca233b48c05d54fff07765df8507e95c02ff8
+  /extend/3.0.0: 5a474353b9f3353ddd8176dfd37b91c83a46f1d4
+  /extsprintf/1.0.2: e1080e0658e300b06294990cc70e1502235fd550
+  /fast-levenshtein/2.0.6: 3d8a5c66883a16a30ca8643e851f19baa7797917
+  /figures/1.7.0:
+    dependencies:
+      escape-string-regexp: 1.0.5
+      object-assign: 4.1.1
+    resolution: cbe1e3affcf1cd44b80cadfed28dc793a9701d2e
+  /file-entry-cache/2.0.0:
+    dependencies:
+      flat-cache: 1.2.2
+      object-assign: 4.1.1
+    resolution: c392990c3e684783d838b8c84a45d8a048458361
+  /file-exists/1.0.0: e6d269b56567b8922581398e990dd7078f72d616
+  /file-position/0.0.0: ae4c65aaea60a14c97f71508c0abc86a8a5f088e
+  /filled-array/1.1.0: c3c4f6c663b923459a9aa29912d2d031f1507f84
+  /find-parent-dir/0.3.0: 33c44b429ab2b2f0646299c5f9f718f376ff8d54
+  /find-up/1.1.2:
+    dependencies:
+      path-exists: 2.1.0
+      pinkie-promise: 2.0.1
+    resolution: 6b2e9822b1a2ce0a60ab64d610eccad53cb24d0f
+  /findup/0.1.5:
+    dependencies:
+      colors: 0.6.2
+      commander: 2.1.0
+    resolution: 8ad929a3393bac627957a7e5de4623b06b0e2ceb
+  /flat-cache/1.2.2:
+    dependencies:
+      circular-json: 0.3.1
+      del: 2.2.2
+      graceful-fs: 4.1.11
+      write: 0.2.1
+    resolution: fa86714e72c21db88601761ecf2f555d1abc6b96
+  /flatten/1.0.2: dae46a9d78fbe25292258cc1e780a41d95c03782
+  /foreach/2.0.5: 0bee005018aeb260d0a3af3ae658dd0136ec1b99
+  /foreachasync/3.0.0: 5502987dc8714be3392097f32e0071c9dee07cf6
+  /forever-agent/0.6.1: fbc71f0c41adeb37f96c577ad1ed42d8fdacca91
+  /form-data/1.0.1:
+    dependencies:
+      async: 2.3.0
+      combined-stream: 1.0.5
+      mime-types: 2.1.15
+    resolution: ae315db9a4907fa065502304a66d7733475ee37c
+  /form-data/2.1.4:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.5
+      mime-types: 2.1.15
+    resolution: 33c183acf193276ecaa98143a69e94bfee1750d1
+  /from/0.1.7: 83c60afc58b9c56997007ed1a768b3ab303a44fe
+  /fs.realpath/1.0.0: 1504ad2523158caa40db4a2787cb01411994ea4f
+  /function-bind/1.1.0: 16176714c801798e4e8f2cf7f7529467bb4a5771
+  /gauge/1.2.7:
+    dependencies:
+      ansi: 0.3.1
+      has-unicode: 2.0.1
+      lodash.pad: 4.5.1
+      lodash.padend: 4.6.1
+      lodash.padstart: 4.6.1
+    resolution: e9cec5483d3d4ee0ef44b60a7d99e4935e136d93
+  /gauge/2.7.3:
+    dependencies:
+      aproba: 1.1.1
+      console-control-strings: 1.1.0
+      has-unicode: 2.0.1
+      object-assign: 4.1.1
+      signal-exit: 3.0.2
+      string-width: 1.0.2
+      strip-ansi: 3.0.1
+      wide-align: 1.1.0
+    resolution: 1c23855f962f17b3ad3d0dc7443f304542edfe09
+  /generate-function/2.0.0: 6858fe7c0969b7d4e9093337647ac79f60dfbe74
+  /generate-object-property/1.2.0:
+    dependencies:
+      is-property: 1.0.2
+    resolution: 9c0e1c40308ce804f4783618b937fa88f99d50d0
+  /get-stdin/4.0.1: b968c6b0a04384324902e8bf1a5df32579a450fe
+  /getpass/0.1.6:
+    dependencies:
+      assert-plus: 1.0.0
+    resolution: 283ffd9fc1256840875311c1b60e8c40187110e6
+  /ghooks/1.3.2:
+    dependencies:
+      execa: 0.4.0
+      findup: 0.1.5
+      lodash.clone: 4.3.2
+      manage-path: 2.0.0
+      opt-cli: 1.5.1
+      path-exists: 2.1.0
+      spawn-command: 0.0.2
+    resolution: bee29deec4283e23eb1ff37d94a8120acd4332e9
+  /git-head/1.20.1:
+    dependencies:
+      git-refs: 1.1.3
+    resolution: 036d16a4b374949e4e3daf15827903686d3ccd52
+  /git-refs/1.1.3:
+    dependencies:
+      path-object: 2.3.0
+      slash: 1.0.0
+      walk: 2.3.9
+    resolution: 83097cb3a92585c4a4926ec54e2182df9e20e89d
+  /github-slugger/1.1.1:
+    dependencies:
+      emoji-regex: 6.4.2
+    resolution: 5444671f65e5a5a424cfa8ba3255cc1f7baf07ea
+  /github-url-from-git/1.5.0: f985fedcc0a9aa579dc88d7aff068d55cc6251a0
+  /github-url-from-username-repo/1.0.2: 7dd79330d2abe69c10c2cef79714c97215791dfa
+  /github-url-to-object/2.2.6:
+    dependencies:
+      is-url: 1.2.2
+    resolution: ca9250165149748eeeb30bfcc6000c6fe0d242f7
+  /github/0.1.16: 895d2a85b0feb7980d89ac0ce4f44dcaa03f17b5
+  /github/0.2.4:
+    dependencies:
+      mime: 1.3.4
+    resolution: 24fa7f0e13fa11b946af91134c51982a91ce538b
+  /glob/5.0.15:
+    dependencies:
+      inflight: 1.0.6
+      inherits: 2.0.3
+      minimatch: 3.0.3
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    resolution: 1bc936b9e02f4a603fcc222ecf7633d30b8b93b1
+  /glob/7.0.5:
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.3
+      minimatch: 3.0.3
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    resolution: b4202a69099bbb4d292a7c1b95b6682b67ebdc95
+  /glob/7.0.6:
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.3
+      minimatch: 3.0.3
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    resolution: 211bafaf49e525b8cd93260d14ab136152b3f57a
+  /glob/7.1.1:
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.3
+      minimatch: 3.0.3
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    resolution: 805211df04faaf1c63a3600306cdf5ade50b2ec8
+  /globals/9.17.0: 0c0ca696d9b9bb694d2e5470bd37777caad50286
+  /globby/5.0.0:
+    dependencies:
+      array-union: 1.0.2
+      arrify: 1.0.1
+      glob: 7.1.1
+      object-assign: 4.1.1
+      pify: 2.3.0
+      pinkie-promise: 2.0.1
+    resolution: ebd84667ca0dbb330b99bcfc68eac2bc54370e0d
+  /got/5.7.1:
+    dependencies:
+      create-error-class: 3.0.2
+      duplexer2: 0.1.4
+      is-redirect: 1.0.0
+      is-retry-allowed: 1.1.0
+      is-stream: 1.1.0
+      lowercase-keys: 1.0.0
+      node-status-codes: 1.0.0
+      object-assign: 4.1.1
+      parse-json: 2.2.0
+      pinkie-promise: 2.0.1
+      read-all-stream: 3.1.0
+      readable-stream: 2.2.9
+      timed-out: 3.1.3
+      unzip-response: 1.0.2
+      url-parse-lax: 1.0.0
+    resolution: 5f81635a61e4a6589f180569ea4e381680a51f35
+  /graceful-fs/4.1.11: 0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658
+  /graceful-readlink/1.0.1: 4cafad76bc62f02fa039b2f94e9a3dd3a391a725
+  /growl/1.9.2: 0ea7743715db8d8de2c5ede1775e1b45ac85c02f
+  /handlebars/4.0.6:
+    dependencies:
+      async: 1.5.2
+      optimist: 0.6.1
+      source-map: 0.4.4
+      uglify-js: 2.8.22
+    resolution: 2ce4484850537f9c97a8026d5399b935c4ed4ed7
+  /har-schema/1.0.5: d263135f43307c02c602afc8fe95970c0151369e
+  /har-validator/2.0.6:
+    dependencies:
+      chalk: 1.1.3
+      commander: 2.9.0
+      is-my-json-valid: 2.16.0
+      pinkie-promise: 2.0.1
+    resolution: cdcbc08188265ad119b6a5a7c8ab70eecfb5d27d
+  /har-validator/4.2.1:
+    dependencies:
+      ajv: 4.11.6
+      har-schema: 1.0.5
+    resolution: 33481d0f1bbff600dd203d75812a6a5fba002e2a
+  /has-ansi/0.1.0:
+    dependencies:
+      ansi-regex: 0.2.1
+    resolution: 84f265aae8c0e6a88a12d7022894b7568894c62e
+  /has-ansi/2.0.0:
+    dependencies:
+      ansi-regex: 2.1.1
+    resolution: 34f5049ce1ecdf2b0649af3ef24e45ed35416d91
+  /has-flag/1.0.0: 9d9e793165ce017a00f00418c43f942a7b1d11fa
+  /has-unicode/2.0.1: e0e6fe6a28cf51138855e086d1691e771de2a8b9
+  /has/1.0.1:
+    dependencies:
+      function-bind: 1.1.0
+    resolution: 8461733f538b0837c9361e39a9ab9e9704dc2f28
+  /hawk/3.1.3:
+    dependencies:
+      boom: 2.10.1
+      cryptiles: 2.0.5
+      hoek: 2.16.3
+      sntp: 1.0.9
+    resolution: 078444bd7c1640b0fe540d2c9b73d59678e8e1c4
+  /hoek/2.16.3: 20bb7403d3cea398e91dc4710a8ff1b8274a25ed
+  /home-or-tmp/2.0.0:
+    dependencies:
+      os-homedir: 1.0.2
+      os-tmpdir: 1.0.2
+    resolution: e36c3f2d2cae7d746a857e38d18d5f32a7882db8
+  /hosted-git-info/2.4.2: 0076b9f46a270506ddbaaea56496897460612a67
+  /http-signature/1.1.1:
+    dependencies:
+      assert-plus: 0.2.0
+      jsprim: 1.4.0
+      sshpk: 1.13.0
+    resolution: df72e267066cd0ac67fb76adf8e134a8fbcf91bf
+  /ignore/3.2.7: 4810ca5f1d8eca5595213a34b94f2eb4ed926bbd
+  /imurmurhash/0.1.4: 9218b9b2b928a238b13dc4fb6b6d576f231453ea
+  /indent-string/2.1.0:
+    dependencies:
+      repeating: 2.0.1
+    resolution: 8e2d48348742121b4a8218b7a137e9a52049dc80
+  /independent/0.2.0:
+    dependencies:
+      '@zkochan/async-replace': 0.4.1
+      babel-runtime: 6.23.0
+      read-pkg-up: 1.0.1
+      relative: 3.0.2
+      resolve: 1.1.7
+    resolution: 7cffb0d5df780052f2445cdaa8f5e3dbdb17cb0f
+  /inflight/1.0.6:
+    dependencies:
+      once: 1.4.0
+      wrappy: 1.0.2
+    resolution: 49bd6331d7d02d0c09bc910a1075ba8165b56df9
+  /inherits/2.0.3: 633c2c83e3da42a502f52466022480f4208261de
+  /ini/1.3.4: 0537cb79daf59b59a1a517dff706c86ec039162e
+  /inquirer/0.12.0:
+    dependencies:
+      ansi-escapes: 1.4.0
+      ansi-regex: 2.1.1
+      chalk: 1.1.3
+      cli-cursor: 1.0.2
+      cli-width: 2.1.0
+      figures: 1.7.0
+      lodash: 4.17.4
+      readline2: 1.0.1
+      run-async: 0.1.0
+      rx-lite: 3.1.2
+      string-width: 1.0.2
+      strip-ansi: 3.0.1
+      through: 2.3.8
+    resolution: 1ef2bfd63504df0bc75785fff8c2c41df12f077e
+  /interpret/1.0.2: f4f623f0bb7122f15f5717c8e254b8161b5c5b2d
+  /invariant/2.2.2:
+    dependencies:
+      loose-envify: 1.3.1
+    resolution: 9e1f56ac0acdb6bf303306f338be3b204ae60360
+  /is-alphabetical/1.0.0: e2544c13058255f2144cb757066cd3342a1c8c46
+  /is-alphanumerical/1.0.0:
+    dependencies:
+      is-alphabetical: 1.0.0
+      is-decimal: 1.0.0
+    resolution: e06492e719c1bf15dec239e4f1af5f67b4d6e7bf
+  /is-arrayish/0.2.1: 77c99840527aa8ecb1a8ba697b80645a7a926a9d
+  /is-buffer/1.1.5: 1f3b26ef613b214b88cbca23cc6c01d87961eecc
+  /is-builtin-module/1.0.0:
+    dependencies:
+      builtin-modules: 1.1.1
+    resolution: 540572d34f7ac3119f8f76c30cbc1b1e037affbe
+  /is-callable/1.1.3: 86eb75392805ddc33af71c92a0eedf74ee7604b2
+  /is-date-object/1.0.1: 9aa20eb6aeebbff77fbd33e74ca01b33581d3a16
+  /is-decimal/1.0.0: 940579b6ea63c628080a69e62bda88c8470b4fe0
+  /is-finite/1.0.2:
+    dependencies:
+      number-is-nan: 1.0.1
+    resolution: cc6677695602be550ef11e8b4aa6305342b6d0aa
+  /is-fullwidth-code-point/1.0.0:
+    dependencies:
+      number-is-nan: 1.0.1
+    resolution: ef9e31386f031a7f0d643af82fde50c457ef00cb
+  /is-fullwidth-code-point/2.0.0: a3b30a5c4f199183167aaab93beefae3ddfb654f
+  /is-hexadecimal/1.0.0: 5c459771d2af9a2e3952781fd54fcb1bcfe4113c
+  /is-my-json-valid/2.16.0:
+    dependencies:
+      generate-function: 2.0.0
+      generate-object-property: 1.2.0
+      jsonpointer: 4.0.1
+      xtend: 4.0.1
+    resolution: f079dd9bfdae65ee2038aae8acbc86ab109e3693
+  /is-npm/1.0.0: f2fb63a65e4905b406c86072765a1a4dc793b9f4
+  /is-obj/1.0.1: 3e4729ac1f5fde025cd7d83a896dab9f4f67db0f
+  /is-path-cwd/1.0.0: d225ec23132e89edd38fda767472e62e65f1106d
+  /is-path-in-cwd/1.0.0:
+    dependencies:
+      is-path-inside: 1.0.0
+    resolution: 6477582b8214d602346094567003be8a9eac04dc
+  /is-path-inside/1.0.0:
+    dependencies:
+      path-is-inside: 1.0.2
+    resolution: fc06e5a1683fbda13de667aff717bbc10a48f37f
+  /is-plain-obj/1.1.0: 71a50c8429dfca773c92a390a4a03b39fcd51d3e
+  /is-promise/2.1.0: 79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa
+  /is-property/1.0.2: 57fe1c4e48474edd65b09911f26b1cd4095dda84
+  /is-redirect/1.0.0: 1d03dded53bd8db0f30c26e4f95d36fc7c87dc24
+  /is-regex/1.0.4:
+    dependencies:
+      has: 1.0.1
+    resolution: 5517489b547091b0930e095654ced25ee97e9491
+  /is-resolvable/1.0.0:
+    dependencies:
+      tryit: 1.0.3
+    resolution: 8df57c61ea2e3c501408d100fb013cf8d6e0cc62
+  /is-retry-allowed/1.1.0: 11a060568b67339444033d0125a61a20d564fb34
+  /is-stream/1.1.0: 12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44
+  /is-symbol/1.0.1: 3cc59f00025194b6ab2e38dbae6689256b660572
+  /is-typedarray/1.0.0: e479c80858df0c1b11ddda6940f96011fcda4a9a
+  /is-url/1.2.2: 498905a593bf47cc2d9e7f738372bbf7696c7f26
+  /is-utf8/0.2.1: 4b0da1442104d1b336340e80797e865cf39f7d72
+  /isarray/1.0.0: bb935d48582cba168c06834957a54a3e07124f11
+  /isexe/2.0.0: e8fbf374dc556ff8947a10dcb0572d633f2cfa10
+  /isobject/2.1.0:
+    dependencies:
+      isarray: 1.0.0
+    resolution: f065561096a3f1da2ef46272f815c840d87e0c89
+  /isstream/0.1.2: 47e63f7af55afa6f92e1500e690eb8b8529c099a
+  /istanbul/0.4.5:
+    dependencies:
+      abbrev: 1.0.9
+      async: 1.5.2
+      escodegen: 1.8.1
+      esprima: 2.7.3
+      glob: 5.0.15
+      handlebars: 4.0.6
+      js-yaml: 3.8.3
+      mkdirp: 0.5.1
+      nopt: 3.0.6
+      once: 1.4.0
+      resolve: 1.1.7
+      supports-color: 3.2.3
+      which: 1.2.14
+      wordwrap: 1.0.0
+    resolution: 65c7d73d4c4da84d4f3ac310b918fb0b8033733b
+  /jodid25519/1.0.2:
+    dependencies:
+      jsbn: 0.1.1
+    resolution: 06d4912255093419477d425633606e0e90782967
+  /js-tokens/3.0.1: 08e9f132484a2c45a30907e9dc4d5567b7f114d7
+  /js-yaml/3.8.3:
+    dependencies:
+      argparse: 1.0.9
+      esprima: 3.1.3
+    resolution: 33a05ec481c850c8875929166fe1beb61c728766
+  /jsbn/0.1.1: a5e654c2e5a2deb5f201d96cefbca80c0ef2f513
+  /jsesc/1.3.0: 46c3fec8c1892b12b0833db9bc7622176dbab34b
+  /json-schema/0.2.3: b480c892e59a2f05954ce727bd3f2a4e882f9e13
+  /json-stable-stringify/1.0.1:
+    dependencies:
+      jsonify: 0.0.0
+    resolution: 9a759d39c5f2ff503fd5300646ed445f88c4f9af
+  /json-stringify-safe/5.0.1: 1296a2d58fd45f19a0f6ce01d65701e2c735b6eb
+  /json3/3.3.2: 3c0434743df93e2f5c42aee7b19bcb483575f4e1
+  /json5/0.5.1: 1eade7acc012034ad84e2396767ead9fa5495821
+  /jsondiffpatch/0.1.43:
+    dependencies:
+      chalk: 0.5.1
+    resolution: c052889a99ef7eba19d0095f90f725cfa70a5611
+  /jsonify/0.0.0: 2c74b6ee41d93ca51b7b5aaee8f503631d252a73
+  /jsonpointer/4.0.1: 4fd92cb34e0e9db3c89c8622ecf51f9b978c6cb9
+  /jsprim/1.4.0:
+    dependencies:
+      assert-plus: 1.0.0
+      extsprintf: 1.0.2
+      json-schema: 0.2.3
+      verror: 1.3.6
+    resolution: a3b87e40298d8c380552d8cc7628a0bb95a22918
+  /kind-of/3.1.0:
+    dependencies:
+      is-buffer: 1.1.5
+    resolution: 475d698a5e49ff5e53d14e3e732429dc8bf4cf47
+  /latest-version/2.0.0:
+    dependencies:
+      package-json: 2.4.0
+    resolution: 56f8d6139620847b8017f8f1f4d78e211324168b
+  /lazy-cache/1.0.4: a1d78fc3a50474cb80845d3b3b6e1da49a446e8e
+  /levn/0.3.0:
+    dependencies:
+      prelude-ls: 1.1.2
+      type-check: 0.3.2
+    resolution: 3b09924edf9f083c0490fdd4c0bc4421e04764ee
+  /load-json-file/1.1.0:
+    dependencies:
+      graceful-fs: 4.1.11
+      parse-json: 2.2.0
+      pify: 2.3.0
+      pinkie-promise: 2.0.1
+      strip-bom: 2.0.0
+    resolution: 956905708d58b4bab4c2261b04f59f31c99374c0
+  /lodash._baseassign/3.2.0:
+    dependencies:
+      lodash._basecopy: 3.0.1
+      lodash.keys: 3.1.2
+    resolution: 8c38a099500f215ad09e59f1722fd0c52bfe0a4e
+  /lodash._baseclone/4.5.7: ce42ade08384ef5d62fa77c30f61a46e686f8434
+  /lodash._basecopy/3.0.1: 8da0e6a876cf344c0ad8a54882111dd3c5c7ca36
+  /lodash._basecreate/3.0.3: 1bc661614daa7fc311b7d03bf16806a0213cf821
+  /lodash._bindcallback/3.0.1: e531c27644cf8b57a99e17ed95b35c748789392e
+  /lodash._createassigner/3.1.1:
+    dependencies:
+      lodash._bindcallback: 3.0.1
+      lodash._isiterateecall: 3.0.9
+      lodash.restparam: 3.6.1
+    resolution: 838a5bae2fdaca63ac22dee8e19fa4e6d6970b11
+  /lodash._getnative/3.9.1: 570bc7dede46d61cdcde687d65d3eecbaa3aaff5
+  /lodash._isiterateecall/3.0.9: 5203ad7ba425fae842460e696db9cf3e6aac057c
+  /lodash.assign/3.2.0:
+    dependencies:
+      lodash._baseassign: 3.2.0
+      lodash._createassigner: 3.1.1
+      lodash.keys: 3.1.2
+    resolution: 3ce9f0234b4b2223e296b8fa0ac1fee8ebca64fa
+  /lodash.clone/4.3.2:
+    dependencies:
+      lodash._baseclone: 4.5.7
+    resolution: e56b176b6823a7dde38f7f2bf58de7d5971200e9
+  /lodash.create/3.1.1:
+    dependencies:
+      lodash._baseassign: 3.2.0
+      lodash._basecreate: 3.0.3
+      lodash._isiterateecall: 3.0.9
+    resolution: d7f2849f0dbda7e04682bb8cd72ab022461debe7
+  /lodash.isarguments/3.1.0: 2f573d85c6a24289ff00663b491c1d338ff3458a
+  /lodash.isarray/3.0.4: 79e4eb88c36a8122af86f844aa9bcd851b5fbb55
+  /lodash.keys/3.1.2:
+    dependencies:
+      lodash._getnative: 3.9.1
+      lodash.isarguments: 3.1.0
+      lodash.isarray: 3.0.4
+    resolution: 4dbc0472b156be50a0b286855d1bd0b0c656098a
+  /lodash.map/4.6.0: 771ec7839e3473d9c4cde28b19394c3562f4f6d3
+  /lodash.pad/4.5.1: 4330949a833a7c8da22cc20f6a26c4d59debba70
+  /lodash.padend/4.6.1: 53ccba047d06e158d311f45da625f4e49e6f166e
+  /lodash.padstart/4.6.1: d2e3eebff0d9d39ad50f5cbd1b52a7bce6bb611b
+  /lodash.partition/4.6.0: a38e46b73469e0420b0da1212e66d414be364ba4
+  /lodash.restparam/3.6.1: 936a4e309ef330a7645ed4145986c85ae5b20805
+  /lodash/1.3.1: a4663b53686b895ff074e2ba504dfb76a8e2b770
+  /lodash/3.10.1: 5bf45e8e49ba4189e17d482789dfd15bd140b7b6
+  /lodash/4.17.4: 78203a4d1c328ae1d86dca6460e369b57f4055ae
+  /longest-streak/1.0.0: d06597c4d4c31b52ccb1f5d8f8fe7148eafd6965
+  /longest/1.0.1: 30a0b2da38f73770e8294a0d22e6625ed77d0097
+  /loose-envify/1.3.1:
+    dependencies:
+      js-tokens: 3.0.1
+    resolution: d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848
+  /loud-rejection/1.6.0:
+    dependencies:
+      currently-unhandled: 0.4.1
+      signal-exit: 3.0.2
+    resolution: 5b46f80147edee578870f086d04821cf998e551f
+  /lowercase-keys/1.0.0: 4e3366b39e7f5457e35f1324bdf6f88d0bfc7306
+  /lru-cache/4.0.2:
+    dependencies:
+      pseudomap: 1.0.2
+      yallist: 2.1.2
+    resolution: 1d17679c069cda5d040991a09dbc2c0db377e55e
+  /magic-hook/1.0.0:
+    dependencies:
+      flatten: 1.0.2
+    resolution: 9aed8601a7512b56b195470da274a4ee3a9509f0
+  /manage-path/2.0.0: f4cf8457b926eeee2a83b173501414bc76eb9597
+  /map-obj/1.0.1: d933ceb9205d82bdcf4886f6742bdc2b4dea146d
+  /map-stream/0.1.0: e56aa94c4c8055a16404a0674b78f215f7c8e194
+  /markdown-table/0.4.0: 890c2c1b3bfe83fb00e4129b8e4cfe645270f9d1
+  /markdownscript/1.3.0:
+    dependencies:
+      babel-runtime: 6.23.0
+    resolution: bdfdff0ac93417824b236523a9a699e5e0ce7e11
+  /mdast-util-to-string/1.0.2: dc996a24d2b521178d3fac3993680c03a683e1dd
+  /meow/3.7.0:
+    dependencies:
+      camelcase-keys: 2.1.0
+      decamelize: 1.2.0
+      loud-rejection: 1.6.0
+      map-obj: 1.0.1
+      minimist: 1.2.0
+      normalize-package-data: 2.3.6
+      object-assign: 4.1.1
+      read-pkg-up: 1.0.1
+      redent: 1.0.0
+      trim-newlines: 1.0.0
+    resolution: 72cb668b425228290abbfa856892587308a801fb
+  /mime-db/1.27.0: 820f572296bbd20ec25ed55e5b5de869e5436eb1
+  /mime-types/2.1.15:
+    dependencies:
+      mime-db: 1.27.0
+    resolution: a4ebf5064094569237b8cf70046776d09fc92aed
+  /mime/1.3.4: 115f9e3b6b3daf2959983cb38f149a2d40eb5d53
+  /minimatch/3.0.3:
+    dependencies:
+      brace-expansion: 1.1.7
+    resolution: 2a4e4090b96b2db06a9d7df01055a62a77c9b774
+  /minimist/0.0.10: de3f98543dbf96082be48ad1a0c7cda836301dcf
+  /minimist/0.0.8: 857fcabfc3397d2625b8228262e86aa7a011b05d
+  /minimist/1.2.0: a35008b20f41383eec1fb914f4cd5df79a264284
+  /mkdirp/0.5.1:
+    dependencies:
+      minimist: 0.0.8
+    resolution: 30057438eac6cf7f8c4767f38648d6697d75c903
+  /mocha/3.2.0:
+    dependencies:
+      browser-stdout: 1.3.0
+      commander: 2.9.0
+      debug: 2.2.0
+      diff: 1.4.0
+      escape-string-regexp: 1.0.5
+      glob: 7.0.5
+      growl: 1.9.2
+      json3: 3.3.2
+      lodash.create: 3.1.1
+      mkdirp: 0.5.1
+      supports-color: 3.1.2
+    resolution: 7dc4f45e5088075171a68896814e6ae9eb7a85e3
+  /mos-core/1.0.2:
+    dependencies:
+      babel-run-async: 1.0.0
+      babel-runtime: 6.23.0
+      ccount: 1.0.1
+      collapse-white-space: 1.0.2
+      core-js: 2.4.1
+      file-position: 0.0.0
+      is-promise: 2.1.0
+      longest-streak: 1.0.0
+      markdown-table: 0.4.0
+      parse-entities: 1.1.0
+      repeat-string: 1.6.1
+      stringify-entities: 1.3.0
+      trim: 0.0.1
+      trim-trailing-lines: 1.1.0
+      unist-util-remove-position: 1.1.0
+    resolution: 37c2697c1cc7861824162bd0fabaef2425f9e47d
+  /mos-hosted-git-info/1.0.0: ca3f01870044bf5e024f858f125dc59b1ac57b69
+  /mos-init/1.1.2:
+    dependencies:
+      arr-exclude: 1.0.0
+      core-js: 2.4.1
+      cross-spawn: 4.0.2
+      mos-read-pkg-up: 1.0.0
+      the-argv: 1.0.0
+      write-pkg: 1.0.0
+    resolution: 0eec4de241385234e4c0a154a9985cecd1fc4483
+  /mos-normalize-package-data/1.0.0:
+    dependencies:
+      is-builtin-module: 1.0.0
+      mos-hosted-git-info: 1.0.0
+      semver: 5.3.0
+      validate-npm-package-license: 3.0.1
+    resolution: 0fda084f3453f01ed4b5655341e6033f179a79ab
+  /mos-plugin-dependencies/2.2.2:
+    dependencies:
+      babel-runtime: 6.23.0
+      github-url-to-object: 2.2.6
+      shieldman: 1.2.0
+    resolution: be6edf375e4cf5c87c414d0f23766622d18ed177
+  /mos-plugin-ejs/1.1.2:
+    dependencies:
+      babel-run-async: 1.0.0
+      babel-runtime: 6.23.0
+      github-url-to-object: 2.2.6
+      mos-read-pkg-up: 1.0.0
+      reserved-words: 0.1.1
+    resolution: d63657c4df68d32331d4c747c1eabfbc10b5cc16
+  /mos-plugin-example/1.1.2:
+    dependencies:
+      babel-runtime: 6.23.0
+      codemo: 0.2.1
+      independent: 0.2.0
+    resolution: 6261838eb4555cd9a38fbceb920133e794b88477
+  /mos-plugin-installation/1.2.2:
+    dependencies:
+      babel-runtime: 6.23.0
+      markdownscript: 1.3.0
+      mdast-util-to-string: 1.0.2
+    resolution: af6160841c87fb39869d0107c0659a2936b23c7f
+  /mos-plugin-license/1.2.2:
+    dependencies:
+      babel-runtime: 6.23.0
+      file-exists: 1.0.0
+      markdownscript: 1.3.0
+      mdast-util-to-string: 1.0.2
+    resolution: 04457e197ba438778e3db67fadd8bcc984747c86
+  /mos-plugin-markdownscript/2.1.2:
+    dependencies:
+      babel-runtime: 6.23.0
+      markdownscript: 1.3.0
+      reserved-words: 0.1.1
+    resolution: 5e1d3624207255778d45bb7e7a50dc7926c303b0
+  /mos-plugin-package-json/2.1.2:
+    dependencies:
+      babel-runtime: 6.23.0
+    resolution: 9106684dd3160989815dded98bbaa3e8579d79a5
+  /mos-plugin-readme/1.0.4:
+    dependencies:
+      babel-runtime: 6.23.0
+      markdownscript: 1.3.0
+    resolution: 7cec1e4948c1ec1d442915801d1f66d7ae2485f3
+  /mos-plugin-shields/2.2.2:
+    dependencies:
+      babel-runtime: 6.23.0
+      shieldman: 1.2.0
+    resolution: 2df6df537c2ca8f70e93f7e4abae0df46ebd4ef6
+  /mos-plugin-snippet/2.1.3:
+    dependencies:
+      babel-runtime: 6.23.0
+    resolution: 025743bf8896e865e2f7f448928cf44078d4c595
+  /mos-plugin-toc/1.2.3:
+    dependencies:
+      babel-runtime: 6.23.0
+      github-slugger: 1.1.1
+      markdownscript: 1.3.0
+    resolution: 803605b255acf62525ab597cf04ad26bdf5de30b
+  /mos-processor/1.2.2:
+    dependencies:
+      babel-runtime: 6.23.0
+      github-url-to-object: 2.2.6
+      magic-hook: 1.0.0
+      mos-core: 1.0.2
+      mos-read-pkg-up: 1.0.0
+      normalize-path: 2.1.1
+      remi: 1.1.1
+      remi-runner: 1.1.3
+    resolution: 6b224a95dbe6a6943beced5eb6c852dc89baa7db
+  /mos-read-pkg-up/1.0.0:
+    dependencies:
+      find-up: 1.1.2
+      mos-read-pkg: 1.1.3
+    resolution: f008b85e542f7b8fd3fdb9d74edc8e7f4d182769
+  /mos-read-pkg/1.1.3:
+    dependencies:
+      load-json-file: 1.1.0
+      mos-normalize-package-data: 1.0.0
+      path-type: 1.1.0
+    resolution: 14cdbc6a808f0fbc1b637866a1bed705a2bd11c4
+  /mos-tap-diff/1.0.0:
+    dependencies:
+      babel-runtime: 6.23.0
+      chalk: 1.1.3
+      core-js: 2.4.1
+      diff: 2.2.3
+      duplexer: 0.1.1
+      figures: 1.7.0
+      jsondiffpatch: 0.1.43
+      pretty-ms: 2.1.0
+      tap-parser: 1.3.2
+      through2: 2.0.3
+    resolution: 343381d1fd9ed51963b0b31535b7fd8bae04ff70
+  /mos/2.0.0-alpha.3:
+    dependencies:
+      babel-runtime: 6.23.0
+      chalk: 1.1.3
+      glob: 7.0.6
+      loud-rejection: 1.6.0
+      magic-hook: 1.0.0
+      meow: 3.7.0
+      mos-init: 1.1.2
+      mos-plugin-dependencies: 2.2.2
+      mos-plugin-ejs: 1.1.2
+      mos-plugin-example: 1.1.2
+      mos-plugin-installation: 1.2.2
+      mos-plugin-license: 1.2.2
+      mos-plugin-markdownscript: 2.1.2
+      mos-plugin-package-json: 2.1.2
+      mos-plugin-shields: 2.2.2
+      mos-plugin-snippet: 2.1.3
+      mos-plugin-toc: 1.2.3
+      mos-processor: 1.2.2
+      mos-read-pkg-up: 1.0.0
+      mos-tap-diff: 1.0.0
+      normalize-newline: 2.0.0
+      normalize-path: 2.0.1
+      rcfile: 1.0.3
+      relative: 3.0.2
+      resolve-cwd: 1.0.0
+      resolve-from: 2.0.0
+      tape: 4.5.1
+      update-notifier: 0.7.0
+    resolution: b7e9bc44dc36d88eaf1d5826067e78c9211ea951
+  /ms/0.7.1: 9cd13c03adbff25b65effde7ce864ee952017098
+  /ms/0.7.2: ae25cf2512b3885a1d95d7f037868d8431124765
+  /mute-stream/0.0.5: 8fbfabb0a98a253d3184331f9e8deb7372fac6c0
+  /natural-compare/1.4.0: 4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7
+  /nerf-dart/1.0.0: e6dab7febf5ad816ea81cf5c629c5a0ebde72c1a
+  /node-status-codes/1.0.0: 5ae5541d024645d32a58fcddc9ceecea7ae3ac2f
+  /node-uuid/1.4.8: b040eb0923968afabf8d32fb1f17f1167fdab907
+  /nopt/3.0.6:
+    dependencies:
+      abbrev: 1.1.0
+    resolution: c6465dbf08abcd4db359317f79ac68a646b28ff9
+  /normalize-newline/2.0.0: c88bf6a5471462aceb3f651713bc239b0facb549
+  /normalize-package-data/1.0.3:
+    dependencies:
+      github-url-from-git: 1.5.0
+      github-url-from-username-repo: 1.0.2
+      semver: 4.3.6
+    resolution: 8be955b8907af975f1a4584ea8bb9b41492312f5
+  /normalize-package-data/2.3.6:
+    dependencies:
+      hosted-git-info: 2.4.2
+      is-builtin-module: 1.0.0
+      semver: 5.3.0
+      validate-npm-package-license: 3.0.1
+    resolution: 498fa420c96401f787402ba21e600def9f981fff
+  /normalize-path/2.0.1: 47886ac1662760d4261b7d979d241709d3ce3f7a
+  /normalize-path/2.1.1:
+    dependencies:
+      remove-trailing-separator: 1.0.1
+    resolution: 1ab28b556e198363a8c1a6f7e6fa20137fe6aed9
+  /npm-package-arg/4.2.1:
+    dependencies:
+      hosted-git-info: 2.4.2
+      semver: 5.3.0
+    resolution: 593303fdea85f7c422775f17f9eb7670f680e3ec
+  /npm-registry-client/7.5.0:
+    dependencies:
+      concat-stream: 1.6.0
+      graceful-fs: 4.1.11
+      normalize-package-data: 2.3.6
+      npm-package-arg: 4.2.1
+      npmlog: 4.0.2
+      once: 1.4.0
+      request: 2.81.0
+      retry: 0.10.1
+      semver: 5.3.0
+      slide: 1.1.6
+    resolution: 0f6dd6e5d11424cfa99fce5b930feaf09b4f7f04
+  /npm-run-path/1.0.0:
+    dependencies:
+      path-key: 1.0.0
+    resolution: f5c32bf595fe81ae927daec52e82f8b000ac3c8f
+  /npmconf/2.1.2:
+    dependencies:
+      config-chain: 1.1.11
+      inherits: 2.0.3
+      ini: 1.3.4
+      mkdirp: 0.5.1
+      nopt: 3.0.6
+      once: 1.3.3
+      osenv: 0.1.4
+      semver: 4.3.6
+      uid-number: 0.0.5
+    resolution: 66606a4a736f1e77a059aa071a79c94ab781853a
+  /npmlog/1.2.1:
+    dependencies:
+      ansi: 0.3.1
+      are-we-there-yet: 1.0.6
+      gauge: 1.2.7
+    resolution: 28e7be619609b53f7ad1dd300a10d64d716268b6
+  /npmlog/4.0.2:
+    dependencies:
+      are-we-there-yet: 1.1.2
+      console-control-strings: 1.1.0
+      gauge: 2.7.3
+      set-blocking: 2.0.0
+    resolution: d03950e0e78ce1527ba26d2a7592e9348ac3e75f
+  /number-is-nan/1.0.1: 097b602b53422a522c1afb8790318336941a011d
+  /oauth-sign/0.8.2: 46a6ab7f0aead8deae9ec0565780b7d4efeb9d43
+  /object-assign/4.1.1: 2109adc7965887cfc05cbbd442cac8bfbb360863
+  /object-inspect/1.1.0: 34bca644a80f94f8ba41a0f9d0984eaf63acf14d
+  /object-keys/1.0.11: c54601778ad560f1142ce0e01bcca8b56d13426d
+  /once/1.3.3:
+    dependencies:
+      wrappy: 1.0.2
+    resolution: b2e261557ce4c314ec8304f3fa82663e4297ca20
+  /once/1.4.0:
+    dependencies:
+      wrappy: 1.0.2
+    resolution: 583b1aa775961d4b113ac17d9c50baef9dd76bd1
+  /onetime/1.1.0: a1f7838f8314c516f05ecefcbc4ccfe04b4ed789
+  /opt-cli/1.5.1:
+    dependencies:
+      commander: 2.9.0
+      lodash.clone: 4.3.2
+      manage-path: 2.0.0
+      spawn-command: 0.0.2-1
+    resolution: 04db447b13c96b992eb31685266f4ed0d9736dc2
+  /optimist/0.6.1:
+    dependencies:
+      minimist: 0.0.10
+      wordwrap: 0.0.3
+    resolution: da3ea74686fa21a19a111c326e90eb15a0196686
+  /optionator/0.8.2:
+    dependencies:
+      deep-is: 0.1.3
+      fast-levenshtein: 2.0.6
+      levn: 0.3.0
+      prelude-ls: 1.1.2
+      type-check: 0.3.2
+      wordwrap: 1.0.0
+    resolution: 364c5e409d3f4d6301d6c0b4c05bba50180aeb64
+  /os-homedir/1.0.2: ffbc4988336e0e833de0c168c7ef152121aa7fb3
+  /os-tmpdir/1.0.2: bbe67406c79aa85c5cfec766fe5734555dfa1274
+  /osenv/0.1.4:
+    dependencies:
+      os-homedir: 1.0.2
+      os-tmpdir: 1.0.2
+    resolution: 42fe6d5953df06c8064be6f176c3d05aaaa34644
+  /package-json/2.4.0:
+    dependencies:
+      got: 5.7.1
+      registry-auth-token: 3.1.2
+      registry-url: 3.1.0
+      semver: 5.3.0
+    resolution: 0d15bd67d1cbbddbb2ca222ff2edb86bcb31a8bb
+  /pad-right/0.2.2:
+    dependencies:
+      repeat-string: 1.6.1
+    resolution: 6fbc924045d244f2a2a244503060d3bfc6009774
+  /parse-entities/1.1.0:
+    dependencies:
+      character-entities: 1.2.0
+      character-entities-legacy: 1.1.0
+      character-reference-invalid: 1.1.0
+      has: 1.0.1
+      is-alphanumerical: 1.0.0
+      is-decimal: 1.0.0
+      is-hexadecimal: 1.0.0
+    resolution: 4bc58f35fdc8e65dded35a12f2e40223ca24a3f7
+  /parse-json/2.2.0:
+    dependencies:
+      error-ex: 1.3.1
+    resolution: f480f40434ef80741f8469099f8dea18f55a4dc9
+  /parse-ms/1.0.1: 56346d4749d78f23430ca0c713850aef91aa361d
+  /path-exists/2.1.0:
+    dependencies:
+      pinkie-promise: 2.0.1
+    resolution: 0feb6c64f0fc518d9a754dd5efb62c7022761f4b
+  /path-exists/3.0.0: ce0ebeaa5f78cb18925ea7d810d7b59b010fd515
+  /path-is-absolute/1.0.1: 174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f
+  /path-is-inside/1.0.2: 365417dede44430d1c11af61027facf074bdfc53
+  /path-key/1.0.0: 5d53d578019646c0d68800db4e146e6bdc2ac7af
+  /path-object/2.3.0:
+    dependencies:
+      core-util-is: 1.0.2
+      lodash.assign: 3.2.0
+    resolution: 03e46653e5c375c60af1cabdd94bc6448a5d9110
+  /path-parse/1.0.5: 3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1
+  /path-type/1.1.0:
+    dependencies:
+      graceful-fs: 4.1.11
+      pify: 2.3.0
+      pinkie-promise: 2.0.1
+    resolution: 59c44f7ee491da704da415da5a4070ba4f8fe441
+  /pause-stream/0.0.11:
+    dependencies:
+      through: 2.3.8
+    resolution: fe5a34b0cbce12b5aa6a2b403ee2e73b602f1445
+  /performance-now/0.2.0: 33ef30c5c77d4ea21c5a53869d91b56d8f2555e5
+  /pify/2.3.0: ed141a6ac043a849ea588498e7dca8b15330e90c
+  /pinkie-promise/2.0.1:
+    dependencies:
+      pinkie: 2.0.4
+    resolution: 2135d6dfa7a358c069ac9b178776288228450ffa
+  /pinkie/2.0.4: 72556b80cfa0d48a974e80e77248e80ed4f7f870
+  /plur/1.0.0: db85c6814f5e5e5a3b49efc28d604fec62975156
+  /pluralize/1.2.1: d1a21483fd22bb41e58a12fa3421823140897c45
+  /prelude-ls/1.1.2: 21932a549f5e52ffd9a827f570e04be62a97da54
+  /prepend-http/1.0.4: d4f4562b0ce3696e41ac52d0e002e57a635dc6dc
+  /pretty-ms/2.1.0:
+    dependencies:
+      is-finite: 1.0.2
+      parse-ms: 1.0.1
+      plur: 1.0.0
+    resolution: 4257c256df3fb0b451d6affaab021884126981dc
+  /private/0.1.7: 68ce5e8a1ef0a23bb570cc28537b5332aba63ef1
+  /process-nextick-args/1.0.7: 150e20b756590ad3f91093f25a4f2ad8bff30ba3
+  /progress/1.1.8: e260c78f6161cdd9b0e56cc3e0a85de17c7a57be
+  /promise.prototype.finally/1.0.1: 91182f91c92486995740fa05e0da942ac986befa
+  /proto-list/1.2.4: 212d5bfe1318306a420f6402b8e26ff39647a849
+  /pseudomap/1.0.2: f052a28da70e618917ef0a8ac34c1ae5a68286b3
+  /punycode/1.4.1: c0d5a63b2718800ad8e1eb0fa5269c84dd41845e
+  /qs/6.2.3: 1cfcb25c10a9b2b483053ff39f5dfc9233908cfe
+  /qs/6.4.0: 13e26d28ad6b0ffaa91312cd3bf708ed351e7233
+  /rc/1.2.1:
+    dependencies:
+      deep-extend: 0.4.1
+      ini: 1.3.4
+      minimist: 1.2.0
+      strip-json-comments: 2.0.1
+    resolution: 2e03e8e42ee450b8cb3dce65be1bf8974e1dfd95
+  /rcfile/1.0.3:
+    dependencies:
+      debug: 2.6.3
+      js-yaml: 3.8.3
+      json5: 0.5.1
+      object-assign: 4.1.1
+      object-keys: 1.0.11
+      path-exists: 2.1.0
+      require-uncached: 1.0.3
+    resolution: c1d8175c289187c1dc8bb3a963b6d444017b1576
+  /read-all-stream/3.1.0:
+    dependencies:
+      pinkie-promise: 2.0.1
+      readable-stream: 2.2.9
+    resolution: 35c3e177f2078ef789ee4bfafa4373074eaef4fa
+  /read-pkg-up/1.0.1:
+    dependencies:
+      find-up: 1.1.2
+      read-pkg: 1.1.0
+    resolution: 9d63c13276c065918d57f002a57f40a1b643fb02
+  /read-pkg/1.1.0:
+    dependencies:
+      load-json-file: 1.1.0
+      normalize-package-data: 2.3.6
+      path-type: 1.1.0
+    resolution: f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28
+  /readable-stream/2.0.6:
+    dependencies:
+      core-util-is: 1.0.2
+      inherits: 2.0.3
+      isarray: 1.0.0
+      process-nextick-args: 1.0.7
+      string_decoder: 0.10.31
+      util-deprecate: 1.0.2
+    resolution: 8f90341e68a53ccc928788dacfcd11b36eb9b78e
+  /readable-stream/2.2.9:
+    dependencies:
+      buffer-shims: 1.0.0
+      core-util-is: 1.0.2
+      inherits: 2.0.3
+      isarray: 1.0.0
+      process-nextick-args: 1.0.7
+      string_decoder: 1.0.0
+      util-deprecate: 1.0.2
+    resolution: cf78ec6f4a6d1eb43d26488cac97f042e74b7fc8
+  /readline2/1.0.1:
+    dependencies:
+      code-point-at: 1.1.0
+      is-fullwidth-code-point: 1.0.0
+      mute-stream: 0.0.5
+    resolution: 41059608ffc154757b715d9989d199ffbf372e35
+  /rechoir/0.6.2:
+    dependencies:
+      resolve: 1.3.2
+    resolution: 85204b54dba82d5742e28c96756ef43af50e3384
+  /redent/1.0.0:
+    dependencies:
+      indent-string: 2.1.0
+      strip-indent: 1.0.1
+    resolution: cf916ab1fd5f1f16dfb20822dd6ec7f730c2afde
+  /regenerator-runtime/0.10.3: 8c4367a904b51ea62a908ac310bf99ff90a82a3e
+  /registry-auth-token/3.1.2:
+    dependencies:
+      rc: 1.2.1
+    resolution: 1b9e51a185c930da34a9894b12a52ea998f1adaf
+  /registry-url/3.1.0:
+    dependencies:
+      rc: 1.2.1
+    resolution: 3d4ef870f73dde1d77f0cf9a381432444e174942
+  /relative/3.0.2:
+    dependencies:
+      isobject: 2.1.0
+    resolution: 0dcd8ec54a5d35a3c15e104503d65375b5a5367f
+  /remi-runner/1.1.3:
+    dependencies:
+      babel-runtime: 6.23.0
+      is-promise: 2.1.0
+    resolution: 0e1fed4bd0f1325c2735e6531d133912733f7e6c
+  /remi/1.1.1:
+    dependencies:
+      babel-runtime: 6.23.0
+      magic-hook: 1.0.0
+    resolution: 471b79014d7a496bdba01d018a126f8f772d88c6
+  /remove-trailing-separator/1.0.1: 615ebb96af559552d4bf4057c8436d486ab63cc4
+  /repeat-string/1.6.1: 8dcae470e1c88abc2d600fff4a776286da75e637
+  /repeating/2.0.1:
+    dependencies:
+      is-finite: 1.0.2
+    resolution: 5214c53a926d3552707527fbab415dbc08d06dda
+  /request-promise-core/1.1.1:
+    dependencies:
+      lodash: 4.17.4
+    resolution: 3eee00b2c5aa83239cfb04c5700da36f81cd08b6
+  /request-promise/4.2.0:
+    dependencies:
+      bluebird: 3.5.0
+      request-promise-core: 1.1.1
+      stealthy-require: 1.0.0
+    resolution: 684f77748d6b4617bee6a4ef4469906e6d074720
+  /request/2.74.0:
+    dependencies:
+      aws-sign2: 0.6.0
+      aws4: 1.6.0
+      bl: 1.1.2
+      caseless: 0.11.0
+      combined-stream: 1.0.5
+      extend: 3.0.0
+      forever-agent: 0.6.1
+      form-data: 1.0.1
+      har-validator: 2.0.6
+      hawk: 3.1.3
+      http-signature: 1.1.1
+      is-typedarray: 1.0.0
+      isstream: 0.1.2
+      json-stringify-safe: 5.0.1
+      mime-types: 2.1.15
+      node-uuid: 1.4.8
+      oauth-sign: 0.8.2
+      qs: 6.2.3
+      stringstream: 0.0.5
+      tough-cookie: 2.3.2
+      tunnel-agent: 0.4.3
+    resolution: 7693ca768bbb0ea5c8ce08c084a45efa05b892ab
+  /request/2.81.0:
+    dependencies:
+      aws-sign2: 0.6.0
+      aws4: 1.6.0
+      caseless: 0.12.0
+      combined-stream: 1.0.5
+      extend: 3.0.0
+      forever-agent: 0.6.1
+      form-data: 2.1.4
+      har-validator: 4.2.1
+      hawk: 3.1.3
+      http-signature: 1.1.1
+      is-typedarray: 1.0.0
+      isstream: 0.1.2
+      json-stringify-safe: 5.0.1
+      mime-types: 2.1.15
+      oauth-sign: 0.8.2
+      performance-now: 0.2.0
+      qs: 6.4.0
+      safe-buffer: 5.0.1
+      stringstream: 0.0.5
+      tough-cookie: 2.3.2
+      tunnel-agent: 0.6.0
+      uuid: 3.0.1
+    resolution: c6928946a0e06c5f8d6f8a9333469ffda46298a0
+  /require-relative/0.8.7: 7999539fc9e047a37928fa196f8e1563dabd36de
+  /require-uncached/1.0.3:
+    dependencies:
+      caller-path: 0.1.0
+      resolve-from: 1.0.1
+    resolution: 4e0d56d6c9662fd31e43011c4b95aa49955421d3
+  /reserved-words/0.1.1: 6f7c15e5e5614c50da961630da46addc87c0cef2
+  /resolve-cwd/1.0.0:
+    dependencies:
+      resolve-from: 2.0.0
+    resolution: 4eaeea41ed040d1702457df64a42b2b07d246f9f
+  /resolve-from/1.0.1: 26cbfe935d1aeeeabb29bc3fe5aeb01e93d44226
+  /resolve-from/2.0.0: 9480ab20e94ffa1d9e80a804c7ea147611966b57
+  /resolve/1.1.7: 203114d82ad2c5ed9e8e0411b3932875e889e97b
+  /resolve/1.3.2:
+    dependencies:
+      path-parse: 1.0.5
+    resolution: 1f0442c9e0cbb8136e87b9305f932f46c7f28235
+  /restore-cursor/1.0.1:
+    dependencies:
+      exit-hook: 1.1.1
+      onetime: 1.1.0
+    resolution: 34661f46886327fed2991479152252df92daa541
+  /resumer/0.0.0:
+    dependencies:
+      through: 2.3.8
+    resolution: f1e8f461e4064ba39e82af3cdc2a8c893d076759
+  /retry/0.10.1: e76388d217992c252750241d3d3956fed98d8ff4
+  /right-align/0.1.3:
+    dependencies:
+      align-text: 0.1.4
+    resolution: 61339b722fe6a3515689210d24e14c96148613ef
+  /right-pad/1.0.1: 8ca08c2cbb5b55e74dafa96bf7fd1a27d568c8d0
+  /rimraf/2.6.1:
+    dependencies:
+      glob: 7.1.1
+    resolution: c2338ec643df7a1b7fe5c54fa86f57428a55f33d
+  /rollup-plugin-babel/2.4.0:
+    dependencies:
+      babel-core: 6.24.1
+      babel-plugin-transform-es2015-classes: 6.24.1
+      object-assign: 4.1.1
+      rollup-pluginutils: 1.5.2
+    resolution: 82a7e164fa29142abd07b526b9c7c02d5ea33bbd
+  /rollup-plugin-includepaths/0.1.2: 56e8438309a62b94189e4208a80f9afc151fdd60
+  /rollup-pluginutils/1.5.2:
+    dependencies:
+      estree-walker: 0.2.1
+      minimatch: 3.0.3
+    resolution: 1e156e778f94b7255bfa1b3d0178be8f5c552408
+  /rollup/0.25.8:
+    dependencies:
+      chalk: 1.1.3
+      minimist: 1.2.0
+      source-map-support: 0.3.3
+    resolution: bf6ce83b87510d163446eeaa577ed6a6fc5835e0
+  /run-async/0.1.0:
+    dependencies:
+      once: 1.4.0
+    resolution: c8ad4a5e110661e402a7d21b530e009f25f8e389
+  /run-auto/2.0.0:
+    dependencies:
+      dezalgo: 1.0.3
+    resolution: 5f4353f58adbd6b74926489b4f259e1dad6a78d6
+  /run-series/1.1.4: 89a73ddc5e75c9ef8ab6320c0a1600d6a41179b9
+  /rx-lite/3.1.2: 19ce502ca572665f3b647b10939f97fd1615f102
+  /safe-buffer/5.0.1: d263ca54696cd8a306b5ca6551e92de57918fbe7
+  /semantic-release/6.3.2:
+    dependencies:
+      '@bahmutov/parse-github-repo-url': 0.1.2
+      '@semantic-release/commit-analyzer': 2.0.0
+      '@semantic-release/condition-travis': 5.0.2
+      '@semantic-release/error': 1.0.0
+      '@semantic-release/last-release-npm': 1.2.1
+      '@semantic-release/release-notes-generator': 2.0.0
+      git-head: 1.20.1
+      github: 0.2.4
+      lodash: 4.17.4
+      nerf-dart: 1.0.0
+      nopt: 3.0.6
+      normalize-package-data: 2.3.6
+      npmconf: 2.1.2
+      npmlog: 4.0.2
+      require-relative: 0.8.7
+      run-auto: 2.0.0
+      run-series: 1.1.4
+      semver: 5.3.0
+    resolution: 224ec4540724a1646cc6dba4a9d2cd6bc8b68311
+  /semver-diff/2.1.0:
+    dependencies:
+      semver: 5.3.0
+    resolution: 4bbb8437c8d37e4b0cf1a68fd726ec6d645d6d36
+  /semver-regex/1.0.0: 92a4969065f9c70c694753d55248fc68f8f652c9
+  /semver/4.3.6: 300bc6e0e86374f7ba61068b5b1ecd57fc6532da
+  /semver/5.3.0: 9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f
+  /set-blocking/2.0.0: 045f9782d011ae9a6803ddd382b24392b3d890f7
+  /shelljs/0.7.7:
+    dependencies:
+      glob: 7.1.1
+      interpret: 1.0.2
+      rechoir: 0.6.2
+    resolution: b2f5c77ef97148f4b4f6e22682e10bba8667cff1
+  /shieldman/1.2.0: 5da3973291b5392bc48229cb6d7843ef7337fa57
+  /signal-exit/3.0.2: b5fdc08f1287ea1178628e415e25132b73646c6d
+  /slash/1.0.0: c41f2f6c39fc16d1cd17ad4b5d896114ae470d55
+  /slice-ansi/0.0.4: edbf8903f66f7ce2f8eafd6ceed65e264c831b35
+  /slide/1.1.6: 56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707
+  /sntp/1.0.9:
+    dependencies:
+      hoek: 2.16.3
+    resolution: 6541184cc90aeea6c6e7b35e2659082443c66198
+  /sort-keys/1.1.2:
+    dependencies:
+      is-plain-obj: 1.1.0
+    resolution: 441b6d4d346798f1b4e49e8920adfba0e543f9ad
+  /source-map-support/0.3.3:
+    dependencies:
+      source-map: 0.1.32
+    resolution: 34900977d5ba3f07c7757ee72e73bb1a9b53754f
+  /source-map-support/0.4.14:
+    dependencies:
+      source-map: 0.5.6
+    resolution: 9d4463772598b86271b4f523f6c1f4e02a7d6aef
+  /source-map/0.1.32:
+    dependencies:
+      amdefine: 1.0.1
+    resolution: c8b6c167797ba4740a8ea33252162ff08591b266
+  /source-map/0.2.0:
+    dependencies:
+      amdefine: 1.0.1
+    resolution: dab73fbcfc2ba819b4de03bd6f6eaa48164b3f9d
+  /source-map/0.4.4:
+    dependencies:
+      amdefine: 1.0.1
+    resolution: eba4f5da9c0dc999de68032d8b4f76173652036b
+  /source-map/0.5.3: 82674b85a71b0be76c3e7416d15e9f5252eb3be0
+  /source-map/0.5.6: 75ce38f52bf0733c5a7f0c118d81334a2bb5f412
+  /spawn-command/0.0.2: 9544e1a43ca045f8531aac1a48cb29bdae62338e
+  /spawn-command/0.0.2-1: 62f5e9466981c1b796dc5929937e11c9c6921bd0
+  /spdx-correct/1.0.2:
+    dependencies:
+      spdx-license-ids: 1.2.2
+    resolution: 4b3073d933ff51f3912f03ac5519498a4150db40
+  /spdx-expression-parse/1.0.4: 9bdf2f20e1f40ed447fbe273266191fced51626c
+  /spdx-license-ids/1.2.2: c9df7a3424594ade6bd11900d596696dc06bac57
+  /split/0.3.3:
+    dependencies:
+      through: 2.3.8
+    resolution: cd0eea5e63a211dfff7eb0f091c4133e2d0dd28f
+  /sprintf-js/1.0.3: 04e6926f662895354f3dd015203633b857297e2c
+  /sshpk/1.13.0:
+    dependencies:
+      asn1: 0.2.3
+      assert-plus: 1.0.0
+      bcrypt-pbkdf: 1.0.1
+      dashdash: 1.14.1
+      ecc-jsbn: 0.1.1
+      getpass: 0.1.6
+      jodid25519: 1.0.2
+      jsbn: 0.1.1
+      tweetnacl: 0.14.5
+    resolution: ff2a3e4fd04497555fed97b39a0fd82fafb3a33c
+  /stealthy-require/1.0.0: 1a8ed8fc19a8b56268f76f5a1a3e3832b0c26200
+  /stream-combiner/0.0.4:
+    dependencies:
+      duplexer: 0.1.1
+    resolution: 4d5e433c185261dde623ca3f44c586bcf5c4ad14
+  /string-width/1.0.2:
+    dependencies:
+      code-point-at: 1.1.0
+      is-fullwidth-code-point: 1.0.0
+      strip-ansi: 3.0.1
+    resolution: 118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3
+  /string-width/2.0.0:
+    dependencies:
+      is-fullwidth-code-point: 2.0.0
+      strip-ansi: 3.0.1
+    resolution: 635c5436cc72a6e0c387ceca278d4e2eec52687e
+  /string.prototype.trim/1.1.2:
+    dependencies:
+      define-properties: 1.1.2
+      es-abstract: 1.7.0
+      function-bind: 1.1.0
+    resolution: d04de2c89e137f4d7d206f086b5ed2fae6be8cea
+  /string_decoder/0.10.31: 62e203bc41766c6c28c9fc84301dab1c5310fa94
+  /string_decoder/1.0.0:
+    dependencies:
+      buffer-shims: 1.0.0
+    resolution: f06f41157b664d86069f84bdbdc9b0d8ab281667
+  /stringify-entities/1.3.0:
+    dependencies:
+      character-entities-html4: 1.1.0
+      character-entities-legacy: 1.1.0
+      has: 1.0.1
+      is-alphanumerical: 1.0.0
+      is-hexadecimal: 1.0.0
+    resolution: 2244a516c4f1e8e01b73dad01023016776abd917
+  /stringstream/0.0.5: 4e484cd4de5a0bbbee18e46307710a8a81621878
+  /strip-ansi/0.3.0:
+    dependencies:
+      ansi-regex: 0.2.1
+    resolution: 25f48ea22ca79187f3174a4db8759347bb126220
+  /strip-ansi/3.0.1:
+    dependencies:
+      ansi-regex: 2.1.1
+    resolution: 6a385fb8853d952d5ff05d0e8aaf94278dc63dcf
+  /strip-bom/2.0.0:
+    dependencies:
+      is-utf8: 0.2.1
+    resolution: 6219a85616520491f35788bdbf1447a99c7e6b0e
+  /strip-bom/3.0.0: 2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3
+  /strip-eof/1.0.0: bb43ff5598a6eb05d89b59fcd129c983313606bf
+  /strip-indent/1.0.1:
+    dependencies:
+      get-stdin: 4.0.1
+    resolution: 0c7962a6adefa7bbd4ac366460a638552ae1a0a2
+  /strip-json-comments/2.0.1: 3c531942e908c2697c0ec344858c286c7ca0a60a
+  /supports-color/0.2.0: d92de2694eb3f67323973d7ae3d8b55b4c22190a
+  /supports-color/2.0.0: 535d045ce6b6363fa40117084629995e9df324c7
+  /supports-color/3.1.2:
+    dependencies:
+      has-flag: 1.0.0
+    resolution: 72a262894d9d408b956ca05ff37b2ed8a6e2a2d5
+  /supports-color/3.2.3:
+    dependencies:
+      has-flag: 1.0.0
+    resolution: 65ac0504b3954171d8a64946b2ae3cbb8a5f54f6
+  /table/3.8.3:
+    dependencies:
+      ajv: 4.11.6
+      ajv-keywords: 1.5.1
+      chalk: 1.1.3
+      lodash: 4.17.4
+      slice-ansi: 0.0.4
+      string-width: 2.0.0
+    resolution: 2bbc542f0fda9861a755d3947fefd8b3f513855f
+  /tap-parser/1.3.2:
+    dependencies:
+      events-to-array: 1.1.2
+      inherits: 2.0.3
+      js-yaml: 3.8.3
+      readable-stream: 2.2.9
+    resolution: 120c5089c88c3c8a793ef288867de321e18f8c22
+  /tape/4.5.1:
+    dependencies:
+      deep-equal: 1.0.1
+      defined: 1.0.0
+      function-bind: 1.1.0
+      glob: 7.0.6
+      has: 1.0.1
+      inherits: 2.0.3
+      minimist: 1.2.0
+      object-inspect: 1.1.0
+      resolve: 1.1.7
+      resumer: 0.0.0
+      string.prototype.trim: 1.1.2
+      through: 2.3.8
+    resolution: 2bb3ea19bdc9f5225217b3f97cbf7986cc4c6e8c
+  /text-table/0.2.0: 7f5ee823ae805207c00af2df4a84ec3fcfa570b4
+  /the-argv/1.0.0: 0084705005730dd84db755253c931ae398db9522
+  /through/2.3.8: 0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5
+  /through2/2.0.3:
+    dependencies:
+      readable-stream: 2.2.9
+      xtend: 4.0.1
+    resolution: 0004569b37c7c74ba39c43f3ced78d1ad94140be
+  /timed-out/3.1.3: 95860bfcc5c76c277f8f8326fd0f5b2e20eba217
+  /to-fast-properties/1.0.2: f3f5c0c3ba7299a7ef99427e44633257ade43320
+  /tough-cookie/2.3.2:
+    dependencies:
+      punycode: 1.4.1
+    resolution: f081f76e4c85720e6c37a5faced737150d84072a
+  /travis-ci/2.1.1:
+    dependencies:
+      github: 0.1.16
+      lodash: 1.3.1
+      request: 2.74.0
+      underscore.string: 2.2.1
+    resolution: 98696265af827ae3576f31aa06d876e74b4b082e
+  /travis-deploy-once/1.0.0-node-0.10-support:
+    dependencies:
+      babel-polyfill: 6.23.0
+      bluebird: 3.5.0
+      request: 2.81.0
+      request-promise: 4.2.0
+      travis-ci: 2.1.1
+    resolution: 98ecce7d95b2f4ba5dcdeeebf54b9df87713d5e6
+  /trim-newlines/1.0.0: 5887966bb582a4503a41eb524f7d35011815a613
+  /trim-right/1.0.1: cb2e1203067e0c8de1f614094b9fe45704ea6003
+  /trim-trailing-lines/1.1.0: 7aefbb7808df9d669f6da2e438cac8c46ada7684
+  /trim/0.0.1: 5858547f6b290757ee95cccc666fb50084c460dd
+  /tryit/1.0.3: 393be730a9446fd1ead6da59a014308f36c289cb
+  /tunnel-agent/0.4.3: 6373db76909fe570e08d73583365ed828a74eeeb
+  /tunnel-agent/0.6.0:
+    dependencies:
+      safe-buffer: 5.0.1
+    resolution: 27a5dea06b36b04a0a9966774b290868f0fc40fd
+  /tweetnacl/0.14.5: 5ae68177f192d4456269d108afa93ff8743f4f64
+  /type-check/0.3.2:
+    dependencies:
+      prelude-ls: 1.1.2
+    resolution: 5884cab512cf1d355e3fb784f30804b2b520db72
+  /type-detect/0.1.1: 0ba5ec2a885640e470ea4e8505971900dac58822
+  /type-detect/1.0.0: 762217cc06db258ec48908a1298e8b95121e8ea2
+  /typedarray/0.0.6: 867ac74e3864187b1d3d47d996a78ec5c8830777
+  /uglify-js/2.8.22:
+    dependencies:
+      source-map: 0.5.6
+      uglify-to-browserify: 1.0.2
+      yargs: 3.10.0
+    resolution: d54934778a8da14903fa29a326fb24c0ab51a1a0
+  /uglify-to-browserify/1.0.2: 6e0924d6bda6b5afe349e39a6d632850a0f882b7
+  /uid-number/0.0.5: 5a3db23ef5dbd55b81fce0ec9a2ac6fccdebb81e
+  /underscore.string/2.2.1: d7c0fa2af5d5a1a67f4253daee98132e733f0f19
+  /unist-util-remove-position/1.1.0:
+    dependencies:
+      unist-util-visit: 1.1.1
+    resolution: 2444fedc344bc5f540dab6353e013b6d78101dc2
+  /unist-util-visit/1.1.1: e917a3b137658b335cb4420c7da2e74d928e4e94
+  /unzip-response/1.0.2: b984f0877fc0a89c2c773cc1ef7b5b232b5b06fe
+  /update-notifier/0.7.0:
+    dependencies:
+      ansi-align: 1.1.0
+      boxen: 0.5.1
+      chalk: 1.1.3
+      configstore: 2.1.0
+      is-npm: 1.0.0
+      latest-version: 2.0.0
+      semver-diff: 2.1.0
+      xdg-basedir: 2.0.0
+    resolution: 143c4533383d08908ef70546206395fe1b5abb06
+  /url-parse-lax/1.0.0:
+    dependencies:
+      prepend-http: 1.0.4
+    resolution: 7af8f303645e9bd79a272e7a14ac68bc0609da73
+  /user-home/2.0.0:
+    dependencies:
+      os-homedir: 1.0.2
+    resolution: 9c70bfd8169bc1dcbf48604e0f04b8b49cde9e9f
+  /util-deprecate/1.0.2: 450d4dc9fa70de732762fbd2d4a28981419a0ccf
+  /uuid/2.0.3: 67e2e863797215530dff318e5bf9dcebfd47b21a
+  /uuid/3.0.1: 6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1
+  /validate-commit-msg/2.12.1:
+    dependencies:
+      conventional-commit-types: 2.1.0
+      find-parent-dir: 0.3.0
+      findup: 0.1.5
+      semver-regex: 1.0.0
+    resolution: 612b61bc9f09f0fee5130de3648870d01cdddf1d
+  /validate-npm-package-license/3.0.1:
+    dependencies:
+      spdx-correct: 1.0.2
+      spdx-expression-parse: 1.0.4
+    resolution: 2804babe712ad3379459acfbe24746ab2c303fbc
+  /verror/1.3.6:
+    dependencies:
+      extsprintf: 1.0.2
+    resolution: cff5df12946d297d2baaefaa2689e25be01c005c
+  /walk/2.3.9:
+    dependencies:
+      foreachasync: 3.0.0
+    resolution: 31b4db6678f2ae01c39ea9fb8725a9031e558a7b
+  /which/1.2.14:
+    dependencies:
+      isexe: 2.0.0
+    resolution: 9a87c4378f03e827cecaf1acdf56c736c01c14e5
+  /wide-align/1.1.0:
+    dependencies:
+      string-width: 1.0.2
+    resolution: 40edde802a71fea1f070da3e62dcda2e7add96ad
+  /widest-line/1.0.0:
+    dependencies:
+      string-width: 1.0.2
+    resolution: 0c09c85c2a94683d0d7eaf8ee097d564bf0e105c
+  /window-size/0.1.0: 5438cd2ea93b202efa3a19fe8887aee7c94f9c9d
+  /word-wrap/1.2.1: 248f459b465d179a17bc407c854d3151d07e45d8
+  /wordwrap/0.0.2: b79669bb42ecb409f83d583cad52ca17eaa1643f
+  /wordwrap/0.0.3: a3d5da6cd5c0bc0008d37234bbaf1bed63059107
+  /wordwrap/1.0.0: 27584810891456a4171c8d0226441ade90cbcaeb
+  /wrappy/1.0.2: b5243d8f3ec1aa35f1364605bc0d1036e30ab69f
+  /write-file-atomic/1.3.1:
+    dependencies:
+      graceful-fs: 4.1.11
+      imurmurhash: 0.1.4
+      slide: 1.1.6
+    resolution: 7d45ba32316328dd1ec7d90f60ebc0d845bb759a
+  /write-json-file/1.2.0:
+    dependencies:
+      graceful-fs: 4.1.11
+      mkdirp: 0.5.1
+      object-assign: 4.1.1
+      pify: 2.3.0
+      pinkie-promise: 2.0.1
+      sort-keys: 1.1.2
+      write-file-atomic: 1.3.1
+    resolution: 2d5dfe96abc3c889057c93971aa4005efb548134
+  /write-pkg/1.0.0:
+    dependencies:
+      write-json-file: 1.2.0
+    resolution: aeb8aa9d4d788e1d893dfb0854968b543a919f57
+  /write/0.2.1:
+    dependencies:
+      mkdirp: 0.5.1
+    resolution: 5fc03828e264cea3fe91455476f7a3c566cb0757
+  /xdg-basedir/2.0.0:
+    dependencies:
+      os-homedir: 1.0.2
+    resolution: edbc903cc385fc04523d966a335504b5504d1bd2
+  /xtend/4.0.1: a5c6d532be656e23db820efb943a1f04998d63af
+  /yallist/2.1.2: 1c11f9218f076089a47dd512f93c6699a6a81d52
+  /yargs/3.10.0:
+    dependencies:
+      camelcase: 1.2.1
+      cliui: 2.1.0
+      decamelize: 1.2.0
+      window-size: 0.1.0
+    resolution: f7ee7bd857dd7c1d2d38c0e74efbd681d1431fd1
+registry: 'https://registry.npmjs.org/'
+version: 2

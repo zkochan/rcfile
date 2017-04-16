@@ -2,8 +2,8 @@
 var path = require('path')
 var debug = require('debug')('rcfile')
 var requireUncached = require('require-uncached')
-var JSON5 = require('json5')
-var fs = require('fs')
+var loadYamlFile = require('load-yaml-file')
+var loadJson5File = require('load-json5-file')
 var pathExists = require('path-exists')
 var objectAssign = require('object-assign')
 var keys = require('object-keys')
@@ -77,7 +77,7 @@ function loadJSONConfigFile (filePath) {
   debug('Loading JSON config file: ' + filePath)
 
   try {
-    return JSON5.parse(readFile(filePath))
+    return loadJson5File.sync(filePath)
   } catch (e) {
     debug('Error reading JSON file: ' + filePath)
     e.message = 'Cannot read config file: ' + filePath + '\nError: ' + e.message
@@ -85,19 +85,12 @@ function loadJSONConfigFile (filePath) {
   }
 }
 
-function readFile (filePath) {
-  return fs.readFileSync(filePath, 'utf8')
-}
-
 function loadYAMLConfigFile (filePath) {
   debug('Loading YAML config file: ' + filePath)
 
-  // lazy load YAML to improve performance when not used
-  var yaml = require('js-yaml')
-
   try {
     // empty YAML file can be null, so always use
-    return yaml.safeLoad(readFile(filePath)) || {}
+    return loadYamlFile.sync(filePath) || {}
   } catch (e) {
     debug('Error reading YAML file: ' + filePath)
     e.message = 'Cannot read config file: ' + filePath + '\nError: ' + e.message

@@ -48,7 +48,7 @@
     "load-json5-file": "^1.0.0",
     "load-yaml-file": "^0.1.0",
     "object-assign": "^4.1.0",
-    "object-keys": "^1.0.9",
+    "object-keys": "^1.0.11",
     "path-exists": "^3.0.0",
     "require-uncached": "^1.0.2"
   },

@@ -10,9 +10,11 @@ devDependencies:
   chai: 4.1.2
   cz-conventional-changelog: 1.2.0
   eslint: 4.7.0
-  eslint-config-standard: 6.2.1
+  eslint-config-standard: 10.2.1
+  eslint-plugin-import: 2.7.0
+  eslint-plugin-node: 5.1.1
   eslint-plugin-promise: 3.5.0
-  eslint-plugin-standard: 2.3.1
+  eslint-plugin-standard: 3.0.1
   ghooks: 1.3.2
   istanbul: 0.4.5
   mocha: 3.5.3
@@ -751,6 +753,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
+  /contains-path/0.1.0:
+    dev: true
+    resolution:
+      integrity: sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
   /conventional-changelog-angular/1.5.0:
     dependencies:
       compare-func: 1.3.2
@@ -1062,6 +1068,13 @@ packages:
     dev: true
     resolution:
       integrity: sha1-yc45Okt8vQsFinJck98pkCeGj/k=
+  /doctrine/1.5.0:
+    dependencies:
+      esutils: 2.0.2
+      isarray: 1.0.0
+    dev: true
+    resolution:
+      integrity: sha1-N53Ocw9hZvds76TmcHoVmwLFpvo=
   /doctrine/2.0.0:
     dependencies:
       esutils: 2.0.2
@@ -1135,18 +1148,56 @@ packages:
       source-map: 0.2.0
     resolution:
       integrity: sha1-WltTr0aTEQvrsIZ6o0MN07cKEBg=
-  /eslint-config-standard/6.2.1:
+  /eslint-config-standard/10.2.1:
     dev: true
     resolution:
-      integrity: sha1-06aKr8cZFjnn7kQec0hzkCY1QpI=
+      integrity: sha1-wGHk0GbzedwXzVYsZOgZtN1FRZE=
+  /eslint-import-resolver-node/0.3.1:
+    dependencies:
+      debug: 2.6.8
+      resolve: 1.4.0
+    dev: true
+    resolution:
+      integrity: sha512-yUtXS15gIcij68NmXmP9Ni77AQuCN0itXbCc/jWd8C6/yKZaSNXicpC8cgvjnxVdmfsosIXrjpzFq7GcDryb6A==
+  /eslint-module-utils/2.1.1:
+    dependencies:
+      debug: 2.6.8
+      pkg-dir: 1.0.0
+    dev: true
+    resolution:
+      integrity: sha512-jDI/X5l/6D1rRD/3T43q8Qgbls2nq5km5KSqiwlyUbGo5+04fXhMKdCPhjwbqAa6HXWaMxj8Q4hQDIh7IadJQw==
+  /eslint-plugin-import/2.7.0:
+    dependencies:
+      builtin-modules: 1.1.1
+      contains-path: 0.1.0
+      debug: 2.6.8
+      doctrine: 1.5.0
+      eslint-import-resolver-node: 0.3.1
+      eslint-module-utils: 2.1.1
+      has: 1.0.1
+      lodash.cond: 4.5.2
+      minimatch: 3.0.4
+      read-pkg-up: 2.0.0
+    dev: true
+    resolution:
+      integrity: sha512-HGYmpU9f/zJaQiKNQOVfHUh2oLWW3STBrCgH0sHTX1xtsxYlH1zjLh8FlQGEIdZSdTbUMaV36WaZ6ImXkenGxQ==
+  /eslint-plugin-node/5.1.1:
+    dependencies:
+      ignore: 3.3.5
+      minimatch: 3.0.4
+      resolve: 1.4.0
+      semver: 5.3.0
+    dev: true
+    resolution:
+      integrity: sha512-3xdoEbPyyQNyGhhqttjgSO3cU/non8QDBJF8ttGaHM2h8CaY5zFIngtqW6ZbLEIvhpoFPDVwiQg61b8zanx5zQ==
   /eslint-plugin-promise/3.5.0:
     dev: true
     resolution:
       integrity: sha1-ePu2/+BHIBYnVp6FpsU3OvKmj8o=
-  /eslint-plugin-standard/2.3.1:
+  /eslint-plugin-standard/3.0.1:
     dev: true
     resolution:
-      integrity: sha1-Z2W9Km2ezce98bFFrkuzDit7hvg=
+      integrity: sha1-NNDJFbRe3G8BA5PH7vOCOwhWXPI=
   /eslint-scope/3.7.1:
     dependencies:
       esrecurse: 4.2.0
@@ -1333,6 +1384,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-ay6YIrGizgpgq2TWEOzK1TyyTQ8=
+  /find-up/2.1.0:
+    dependencies:
+      locate-path: 2.0.0
+    dev: true
+    resolution:
+      integrity: sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
   /findup/0.1.5:
     dependencies:
       colors: 0.6.2
@@ -2116,6 +2173,15 @@ packages:
     dev: true
     resolution:
       integrity: sha1-lWkFcI1YtLq0wiYbBPWfMcmTdMA=
+  /load-json-file/2.0.0:
+    dependencies:
+      graceful-fs: 4.1.11
+      parse-json: 2.2.0
+      pify: 2.3.0
+      strip-bom: 3.0.0
+    dev: true
+    resolution:
+      integrity: sha1-eUfkIUmvgNaWy/eXvKq8/h/inKg=
   /load-json5-file/1.0.0:
     dependencies:
       graceful-fs: 4.1.11
@@ -2132,6 +2198,13 @@ packages:
       strip-bom: 3.0.0
     resolution:
       integrity: sha1-9oAGbmkbPutFAXZy5KOVavW4O4k=
+  /locate-path/2.0.0:
+    dependencies:
+      p-locate: 2.0.0
+      path-exists: 3.0.0
+    dev: true
+    resolution:
+      integrity: sha1-K1aLJl7slExtnA3pw9u7ygNUzY4=
   /lodash._baseassign/3.2.0:
     dependencies:
       lodash._basecopy: 3.0.1
@@ -2189,6 +2262,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-5WsXa2gjp93jj38r9Y3n1ZcSAOk=
+  /lodash.cond/4.5.2:
+    dev: true
+    resolution:
+      integrity: sha1-9HGh2khr5g9quVXRcRVSPdHSVdU=
   /lodash.create/3.1.1:
     dependencies:
       lodash._baseassign: 3.2.0
@@ -2818,6 +2895,16 @@ packages:
     dev: true
     resolution:
       integrity: sha1-Qv5tWVPfBsgGS+bxdsPQWqqjRkQ=
+  /p-limit/1.1.0:
+    dev: true
+    resolution:
+      integrity: sha1-sH/y2aXYi+yAYDWJWiurZqJ5iLw=
+  /p-locate/2.0.0:
+    dependencies:
+      p-limit: 1.1.0
+    dev: true
+    resolution:
+      integrity: sha1-IKAQOyIqcMj9OcwuWAaA893l7EM=
   /package-json/2.4.0:
     dependencies:
       got: 5.7.1
@@ -2886,6 +2973,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-A+RmU+XDdcYK8cq92UvGRIpdkRA=
+  /path-parse/1.0.5:
+    dev: true
+    resolution:
+      integrity: sha1-PBrfhx6pzWyUMbbqK9dKD/BVxME=
   /path-type/1.1.0:
     dependencies:
       graceful-fs: 4.1.11
@@ -2894,6 +2985,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-WcRPfuSR2nBNpBXaWkBwuk+P5EE=
+  /path-type/2.0.0:
+    dependencies:
+      pify: 2.3.0
+    dev: true
+    resolution:
+      integrity: sha1-8BLMuEFbcJb8LaoQVMPXI4lZTHM=
   /pathval/1.1.0:
     dev: true
     resolution:
@@ -2921,6 +3018,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
+  /pkg-dir/1.0.0:
+    dependencies:
+      find-up: 1.1.2
+    dev: true
+    resolution:
+      integrity: sha1-ektQio1bstYp1EcFb/TpyTFM89Q=
   /plur/1.0.0:
     dev: true
     resolution:
@@ -3020,6 +3123,13 @@ packages:
     dev: true
     resolution:
       integrity: sha1-nWPBMnbAZZGNV/ACpX9AobZD+wI=
+  /read-pkg-up/2.0.0:
+    dependencies:
+      find-up: 2.1.0
+      read-pkg: 2.0.0
+    dev: true
+    resolution:
+      integrity: sha1-a3KoBImE4MQeeVEP1en6mbO1Sb4=
   /read-pkg/1.1.0:
     dependencies:
       load-json-file: 1.1.0
@@ -3028,6 +3138,14 @@ packages:
     dev: true
     resolution:
       integrity: sha1-9f+qXs0pyzHAR0vKfXVra7KePyg=
+  /read-pkg/2.0.0:
+    dependencies:
+      load-json-file: 2.0.0
+      normalize-package-data: 2.4.0
+      path-type: 2.0.0
+    dev: true
+    resolution:
+      integrity: sha1-jvHAYjxqbbDcZxPEv6xGMysjaPg=
   /readable-stream/2.0.6:
     dependencies:
       core-util-is: 1.0.2
@@ -3193,6 +3311,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
+  /resolve/1.4.0:
+    dependencies:
+      path-parse: 1.0.5
+    dev: true
+    resolution:
+      integrity: sha512-aW7sVKPufyHqOmyyLzg/J+8606v5nevBgaliIlV7nUpVMsDnoBGV/cbSLNjZAg9q0Cfd/+easKVKQ8vOu8fn1Q==
   /restore-cursor/2.0.0:
     dependencies:
       onetime: 2.0.1
@@ -3326,6 +3450,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-d0Zt5YnNXTyV8TiqeLxWmjy10no=
+  /semver/5.3.0:
+    dev: true
+    resolution:
+      integrity: sha1-myzl094C0XxgEq0yaqa00M9U+U8=
   /semver/5.4.1:
     dev: true
     resolution:
@@ -3951,9 +4079,11 @@ specifiers:
   cz-conventional-changelog: 1.2.0
   debug: ^3.0.0
   eslint: ^4.1.0
-  eslint-config-standard: ^6.2.1
+  eslint-config-standard: ^10.2.1
+  eslint-plugin-import: ^2.7.0
+  eslint-plugin-node: ^5.1.1
   eslint-plugin-promise: ^3.4.0
-  eslint-plugin-standard: ^2.0.1
+  eslint-plugin-standard: ^3.0.1
   ghooks: ^1.2.1
   istanbul: ^0.4.2
   load-json5-file: ^1.0.0

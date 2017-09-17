@@ -3,11 +3,7 @@ sudo: false
 node_js:
   - 4
   - 6
-  - 7
-
-cache:
-  directories:
-    - $HOME/.pnpm-store
+  - 8
 
 before_install:
   - npm install -g pnpm
@@ -15,5 +11,5 @@ install:
   - pnpm install
 
 after_success:
-  - if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run coveralls; fi;
-  - if [[ $TRAVIS_NODE_VERSION == "v4" ]]; then npm run semantic-release; fi;
+  - if [[ $TRAVIS_NODE_VERSION == "v8" ]]; then npm run coveralls; fi;
+  - if [[ $TRAVIS_NODE_VERSION == "v8" ]]; then npm run semantic-release; fi;
